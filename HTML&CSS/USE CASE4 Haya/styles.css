@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C1D4FF;
+    padding: 10px 20px;
+}
+
+.top-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.top-nav a:hover {
+    color: #007bff;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.nav-links {
+    margin: 20px 0;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+
+/* Completed Courses Table */
+#completed {
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+}
+
+#completed h2 {
+    background-color: #B7E9F7;
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    text-align: center;
+}
+
+.courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.courses-table th, 
+.courses-table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.courses-table th {
+    background-color: #B7E9F7;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.courses-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* In Progress Courses Table */
+#in-progress {
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+}
+
+#in-progress h2 {
+    background-color: #A9CFFE;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.courses-table th, 
+.courses-table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.courses-table th {
+    background-color: #B7E9F7;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.courses-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+#pending {
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+}
+
+#pending h2 {
+    background-color: #4476BD;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.courses-table th, 
+.courses-table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.courses-table th {
+    background-color: #d7e3fc;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.courses-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+footer {
+    background-color: #C1D4FF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-container h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footer-container ul li i {
+    margin-right: 10px;
+}
+header div nav a{
+    font-size: 20px;
+}
+header div nav a img{
+    width: 18px;
+}
