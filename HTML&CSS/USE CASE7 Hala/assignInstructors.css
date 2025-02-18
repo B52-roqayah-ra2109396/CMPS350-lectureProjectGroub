@@ -39,7 +39,7 @@ main .heading {
     text-align: center;
     position: relative;
     padding: 100px 20px;
-    min-height: 300px; 
+    min-height: 270px; 
     background-image: url("../Media/img1.jpg");
     background-size: cover;
     background-position: center;
