@@ -129,3 +129,34 @@ button {
 a:hover{
     color: darkblue;
 }
+footer {
+    background-color: #C1D4FF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-container h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footer-container ul li i {
+    margin-right: 10px;
+}
+
