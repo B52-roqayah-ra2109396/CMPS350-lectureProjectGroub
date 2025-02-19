@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C1D4FF;
+    padding: 7px 7px;
+    border-bottom: 3px solid #c0c0c0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav ul li a img{
+    width: 18px;
+}
+
+main .heading {
+    margin-top: 45px;
+    text-align: center;
+    position: relative;
+    padding: 100px 20px;
+    min-height: 300px; 
+    background-image: url("../Media/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    width: auto;
+    font-size: 55px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+.instructors-courses {
+    background: #d1d1d1; /* Light grey background */
+    padding: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.course-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.accept {
+    background: #4CAF50;
+    color: white;
+}
+
+.accept:hover {
+    background: #3e8e41;
+}
+
+.decline {
+    background: #f44336;
+    color: white;
+}
+
+.decline:hover {
+    background: #d32f2f;
+}
+
+a:hover{
+    color: darkblue;
+}
+footer {
+    background-color: #C1D4FF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-container h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footer-container ul li i {
+    margin-right: 10px;
+}
+
