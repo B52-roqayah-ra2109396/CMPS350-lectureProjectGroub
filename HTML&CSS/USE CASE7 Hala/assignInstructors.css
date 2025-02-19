@@ -8,6 +8,7 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #C1D4FF;
@@ -19,6 +20,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -40,13 +42,14 @@ main .heading {
     position: relative;
     padding: 100px 20px;
     min-height: 270px; 
-    background-image: url("../Media/img1.jpg");
+    background-image: url("../Media/img2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 h1 {
+    background: #ebe3e390;
     width: auto;
     font-size: 55px;
     font-weight: bold;
@@ -62,7 +65,7 @@ h2{
     position: relative;
 }
 .instructors-courses {
-    background: #d1d1d1; /* Light grey background */
+    background: #d1d1d1; 
     padding: 40px;
     margin-top: 20px;
     text-align: center;
@@ -109,25 +112,26 @@ button {
 }
 
 .accept {
-    background: #4CAF50;
+    background:#A9CFFE;
     color: white;
 }
 
 .accept:hover {
-    background: #3e8e41;
+    background:#4476BD;
 }
 
 .decline {
-    background: #f44336;
+    background: #B7E9F7;
     color: white;
 }
 
 .decline:hover {
-    background: #d32f2f;
+    background:#4476BD;
 }
 
 a:hover{
     color: darkblue;
+    background-color:whitesmoke;
 }
 footer {
     background-color: #C1D4FF;
