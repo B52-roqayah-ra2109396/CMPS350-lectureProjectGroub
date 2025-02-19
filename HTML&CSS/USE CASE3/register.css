@@ -45,7 +45,7 @@ main .heading {
     position: relative;
     padding: 100px 20px;
     min-height: 270px; 
-    background-image: url("../Media/img2.jpg");
+    background-image: url("../Media/register.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

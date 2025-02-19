@@ -40,9 +40,9 @@ main .heading {
     margin-top: 45px;
     text-align: center;
     position: relative;
-    padding: 100px 20px;
-    min-height: 270px; 
-    background-image: url("../Media/img1.jpg");
+    padding: 100px 26px;
+    min-height: 290px; 
+    background-image: url("../Media/assignInstructors.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

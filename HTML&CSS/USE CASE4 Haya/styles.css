@@ -8,11 +8,11 @@ body {
 
 
 .header-content {
-    background-image: url('/Media/MyLearningPath.png');
-    background-size: cover;    /* This will make the image cover the entire area */
-    background-position: center;  /* This keeps the image centered */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
-    height: 400px; /* Adjust the height as needed */
+    background-image: url('../Media/Library-rafiki.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 400px; 
     padding: 60px 20px;
     color: white;
     position: relative;
