@@ -42,7 +42,7 @@ main .heading {
     position: relative;
     padding: 100px 20px;
     min-height: 270px; 
-    background-image: url("../Media/img2.jpg");
+    background-image: url("../Media/img1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ button {
     color: white;
 }
 
-.decline:hover {
+.decline:hover{
     background:#4476BD;
 }
 
@@ -133,24 +133,24 @@ a:hover{
     color: darkblue;
     background-color:whitesmoke;
 }
-footer {
+footer{
     background-color: #C1D4FF;
     padding: 20px 0;
     text-align: center;
 }
 
-.footer-container {
+.footer-container{
     width: 80%;
     margin: 0 auto;
     text-align: left;
 }
 
-.footer-container h3 {
+.footer-container h3{
     font-size: 24px;
     font-weight: bold;
 }
 
-.footer-container ul {
+.footer-container ul{
     list-style: none;
     padding: 0;
 }
@@ -163,4 +163,33 @@ footer {
 .footer-container ul li i {
     margin-right: 10px;
 }
+#instructions{
+    list-style-type: none;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#instruction{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+    margin: 5px 0;
+    border-bottom: 1px solid #ddd; 
+}
+
+#instruction:last-child{
+    border-bottom: none; 
+}
+
+#instruction::before{
+    content: "✔"; 
+    color:#A9CFFE;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
 
