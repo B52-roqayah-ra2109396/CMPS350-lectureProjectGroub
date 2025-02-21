@@ -61,8 +61,10 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: url('login.jpg') no-repeat center center fixed; /* Change 'background.jpg' to your actual image path */
+  background-size: cover;
 }
+
 
 /* Header */
 header {
@@ -100,16 +102,22 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh; /* Full height of viewport */
+  position: relative;
 }
 
 .login-box {
-  background: white;
-  padding: 30px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 4px 6px color(C1D4FF);
-  width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  position: absolute;
+  top: 47%; /* Adjust position */
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+  border: 2px solid black; /* Optional, to match the image effect */
 }
 
 .login-box h2 {
@@ -151,5 +159,5 @@ button {
 }
 
 button:hover {
-  background: color(blue);
+  background: #800000; /* Darker blue or any color */
 }
