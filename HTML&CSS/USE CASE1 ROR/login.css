@@ -61,7 +61,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url('../Media/Exams-rafiki.png') no-repeat center center fixed; /* Change 'background.jpg' to your actual image path */
+  background: url('Exams-rafiki.png') no-repeat center center fixed; /* Change 'background.jpg' to your actual image path */
   background-size: cover;
 }
 
