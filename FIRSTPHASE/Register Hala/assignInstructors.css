@@ -42,7 +42,7 @@ main .heading {
     position: relative;
     padding: 100px 26px;
     min-height: 290px; 
-    background-image: url("../Media/assignInstructors.png");
+    background-image: url("assignInstructors.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
