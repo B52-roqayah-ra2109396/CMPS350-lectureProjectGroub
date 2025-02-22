@@ -176,7 +176,7 @@ footer {
     text-align: center;
 }
 
-footer p {
+footer p  {
     margin: 5px 0;
     display: flex;
     align-items: center;
@@ -187,4 +187,8 @@ footer p {
 footer img {
     width: 16px;
     height: 16px;
+}
+
+footer div a {
+    text-decoration: none;
 }
