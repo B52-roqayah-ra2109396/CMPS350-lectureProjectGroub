@@ -1,3 +1,4 @@
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -176,7 +177,7 @@ footer {
     text-align: center;
 }
 
-footer p  {
+footer p {
     margin: 5px 0;
     display: flex;
     align-items: center;
@@ -187,8 +188,4 @@ footer p  {
 footer img {
     width: 16px;
     height: 16px;
-}
-
-footer div a {
-    text-decoration: none;
 }
