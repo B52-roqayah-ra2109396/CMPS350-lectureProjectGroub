@@ -45,7 +45,7 @@ main .heading {
     position: relative;
     padding: 100px 20px;
     min-height: 270px; 
-    background-image: url("../Media/register.png");
+    background-image: url("../Media/USECASE3.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 10px;
 }
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -73,7 +73,7 @@ body {
     align-items: center;
 }
 
-/* Search Container */
+
 #search-container {
     background-color: white;
     padding: 20px;
