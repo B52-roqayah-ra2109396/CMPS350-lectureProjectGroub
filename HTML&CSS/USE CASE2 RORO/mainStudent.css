@@ -48,7 +48,7 @@ nav ul li a {
 
 .hero img {
     width: 100%;
-    max-height: 400px;
+    max-height: 600px;
     object-fit: cover;
     display: block;
 }
@@ -77,7 +77,7 @@ nav ul li a {
 }
 
 .course-banner {
-    background: url('explore-courses.png') no-repeat center center;
+    background: url('/Media/Explore-courses.png') no-repeat center center;
     background-size: cover;
     padding: 60px 20px;
     color: black;
