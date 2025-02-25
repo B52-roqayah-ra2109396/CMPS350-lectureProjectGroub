@@ -44,6 +44,7 @@ nav ul li a {
     font-weight: bold;
     display: flex;
     align-items: center;
+    
 }
 
 .hero img {
@@ -189,6 +190,12 @@ footer img {
     height: 16px;
 }
 
-footer div a {
+footer div li  {
+    
+    list-style: none;
+}
+
+footer div li a {
     text-decoration: none;
+    
 }
