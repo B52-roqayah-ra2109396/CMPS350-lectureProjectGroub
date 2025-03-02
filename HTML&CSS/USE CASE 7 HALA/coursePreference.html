@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Submit Course Preferences</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="coursePreference.css" />
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <img src="/Media/qu.png"  alt="Qatar University Logo" width="200" height="80">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="/Icons/home.svg" alt="home icon"/>Home</a></li>
+                <li><a href="#"><img src="/Icons/logout.svg" alt="logout icon"/>Logout</a></li>
+                <li><a href="#contact"><img src="/Icons/contact.svg" alt="contact icon"/>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="heading">
+        <h1><span>Submit Your Courses Preferences</h1>
+        </section>
+        <section class="instructors-preferences">
+            <div class="preferences-message">
+                <h2>Submit Your Course Preferences</h2>
+                <p>Please select the courses you are interested in teaching for the upcoming term. You can rank your preferences to help the administrator make assignment decisions. Once submitted, your preferences will be considered after the deadline.</p>
+                
+                <ul>
+                    <li><strong>Review the available courses</strong></li>
+                    <li><strong>Select and rank your preferred courses</strong></li>
+                    <li><strong>Submit before the deadline</strong></li>
+                </ul>
+            
+                <p>After submission, you won’t be able to make changes. Make sure your selections reflect your preferences accurately.</p>
+            </div>
+
+            <div id="checkboxContainer">
+                <h3>Select Your Preferred Courses:</h3>
+
+                <label>
+                    <input type="checkbox" name="courses[]" value="course1"> Course 1
+                </label><br>
+                
+                <label>
+                    <input type="checkbox" name="courses[]" value="course2"> Course 2
+                </label><br>
+                
+                <label>
+                    <input type="checkbox" name="courses[]" value="course3"> Course 3
+                </label><br>
+                
+                <label>
+                    <input type="checkbox" name="courses[]" value="course4"> Course 4
+                </label><br>
+            
+                <button type="submit">Submit Preferences</button>
+            </div>
+
+        </section>
+        </main>
+    </body>
