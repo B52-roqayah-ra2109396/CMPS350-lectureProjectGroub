@@ -1,4 +1,8 @@
 body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -28,8 +32,8 @@ body {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px 20px;
     border-radius: 10px;
-    font-size: 48px;
     font-weight: bold;
+    font-size: clamp(1.8em, 5vw, 3em);
 }
 
 .header-content nav {
@@ -40,6 +44,7 @@ body {
     display: flex;
     gap: 20px;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 .header-content nav a{
     text-decoration: none;
@@ -129,6 +134,7 @@ h1 {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    overflow-x: auto;
 }
 
 .courses-table th, 
@@ -257,3 +263,43 @@ footer {
     margin-right: 10px;
 }
 
+
+* {
+    box-sizing: border-box;
+}
+
+
+main, footer {
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 100%;
+}
+
+
+.top-bar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .top-bar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
