@@ -89,7 +89,7 @@ body {
 }
 
 .course-category {
-    width: 90%;
+    width:cover;
     margin: 20px auto;
     background-color: white;
     border-radius: 10px;
@@ -245,7 +245,7 @@ footer {
     border-radius: 5px;
 }
 
-/* New container for buttons */
+
 .button-container {
 
     display: flex;
@@ -253,7 +253,7 @@ footer {
     margin-left: auto;
 }
 
-/* Adjust button styles */
+
 .cancel-btn, .validate-btn {
     padding: 5px 15px;
     font-weight: bold;
@@ -268,6 +268,10 @@ footer {
     min-width: 400px;
     box-sizing: border-box;
 }
+#InProgressCourses{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
 
 @media screen and (min-width: 600px) {
     .main-content {
@@ -276,9 +280,13 @@ footer {
     h1{
         font-size: 50px;
     }
-    .course-category {
-        width: 80%;
-    }
+    /* .course-category {
+        width: 100%;
+    } */
+    /* #InProgressCourses{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    } */
     .footer-container {
         flex-direction: row;
         justify-content: space-evenly;
