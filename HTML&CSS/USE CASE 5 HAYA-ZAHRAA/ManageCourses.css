@@ -67,6 +67,7 @@ body {
     padding: 2px 15px;
     border-radius: 5px;
     transition: background 0.2s;
+    width: 100%;
 }
 
 body {
@@ -89,7 +90,7 @@ body {
 }
 
 .course-category {
-    width:cover;
+    width: 100%;
     margin: 20px auto;
     background-color: white;
     border-radius: 10px;
@@ -195,6 +196,8 @@ footer {
     background-color: #C1D4FF;
     padding: 20px 5%;
     text-align: center;
+    width: 100%;
+
 }
 
 .footer-container {
@@ -263,14 +266,15 @@ footer {
 
 }
 .main-content, footer {
-    width: cover;
+    width: 100%;
+
     max-width: 800px;
     min-width: 400px;
     box-sizing: border-box;
 }
 #InProgressCourses{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 @media screen and (min-width: 600px) {
@@ -280,13 +284,13 @@ footer {
     h1{
         font-size: 50px;
     }
-    /* .course-category {
+    .course-category {
         width: 100%;
-    } */
-    /* #InProgressCourses{
+    } 
+    #InProgressCourses{
         display:grid;
         grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-    } */
+    } 
     .footer-container {
         flex-direction: row;
         justify-content: space-evenly;
@@ -296,3 +300,7 @@ footer {
         font-size: 2rem;
     }
 }
+* {
+    box-sizing: border-box;
+}
+
