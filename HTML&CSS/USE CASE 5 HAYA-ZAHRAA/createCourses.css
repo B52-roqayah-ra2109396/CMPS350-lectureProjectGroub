@@ -109,7 +109,7 @@ main #forms{
     transform: translate(-50%, -50%);
     color: rgb(255, 217, 0);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
-    z-index: 2; /* Ensure text is on top */
+    z-index: 2; 
 }
 
 
@@ -133,13 +133,11 @@ button:hover {
 footer {
     margin-top: 20px;
     padding: 10px;
-    /* background-color: #C1D4FF; */
     color: black;
     text-align: center;
     width: 100vw;
     border-top: 30px solid #C1D4FF ;
     border-bottom: 30px solid  #C1D4FF;
-    /*padding-bottom: 20px;*/
 }
 footer ul{
     list-style: none;
@@ -150,8 +148,8 @@ html, body{
     max-width: 100%;
     overflow-x: hidden;
 }
-/* Media query for smaller screens */
-@media (max-width: 768px) {
+
+@media (max-width: 600px) {
     main {
         width: 100%;
     }
