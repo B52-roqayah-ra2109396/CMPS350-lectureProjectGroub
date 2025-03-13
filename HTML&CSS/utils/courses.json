@@ -1,0 +1,26 @@
+{
+    "courses": [
+      { "code": "CMPS 151", "name": "Programming Concepts", "category": "Programming" },
+      { "code": "CMPS 200", "name": "Computer Ethics", "category": "General" },
+      { "code": "CMPS 323", "name": "Design and Analysis of Algorithms", "category": "Programming" },
+      { "code": "CMPE 263", "name": "Computer Architecture & Organization", "category": "Programming" },
+      { "code": "CMPS 380", "name": "Cybersecurity Fundamentals", "category": "Security" },
+      { "code": "CMPS 351", "name": "Fundamentals of Database Systems", "category": "Databases" },
+      { "code": "CMPS 405", "name": "Operating Systems", "category": "Systems" },
+      { "code": "CMPS 251", "name": "Object-Oriented Programming", "category": "Programming" },
+      { "code": "CMPS 205", "name": "Discrete Structures", "category": "Mathematics" },
+      { "code": "CMPS 310", "name": "Software Engineering", "category": "Software Development" },
+      { "code": "CMPS 485", "name": "Network Security", "category": "Security" },
+      { "code": "CMPS 303", "name": "Data Structures", "category": "Programming" },
+      { "code": "CMPS 350", "name": "Web Development Fundamentals", "category": "Web Development" },
+      { "code": "CMPE 355", "name": "Data Communication and Computer Networks", "category": "Networking" },
+      { "code": "GENG 200", "name": "Probability and Statistics for Engineers", "category": "Mathematics" },
+      { "code": "GENG 300", "name": "Numerical Methods", "category": "Mathematics" },
+      { "code": "MATH 101", "name": "Calculus I", "category": "Mathematics" },
+      { "code": "MATH 102", "name": "Calculus II", "category": "Mathematics" },
+      { "code": "MATH 231", "name": "Linear Algebra", "category": "Mathematics" },
+      { "code": "CMPS 307", "name": "Introduction to Project Management & Entrepreneurship", "category": "Management" },
+      { "code": "MAGT 101", "name": "Principles of Management", "category": "Management" }
+    ]
+  }
+  
