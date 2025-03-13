@@ -13,7 +13,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="/USE CASE1 ROQAYA/login.html"><img src="/Icons/logout.svg" alt="Logout"> Logout</a></li>
+                <li><a href="../USE CASE1 ROQAYA/login.html"><img src="/Icons/logout.svg" alt="Logout"> Logout</a></li>
                 <li><a href="#courses-container"><img src="/Icons/courses.svg" alt="Courses"> Courses</a></li>
                 <li><a href="#about"><img src="/Icons/aboutUs.svg" alt="About"> About us</a></li>
                 <li><a href="#contact"><img src="/Icons/contact.svg" alt="Contact"> Contact</a></li>
@@ -38,8 +38,8 @@
     </section>
     <div id="search-container">
         <p></p>
-        <label>Course Name: <input type="text" name="courseName"></label>
-        <label>Course Category: <input type="text" name="courseCategory"></label>
+        <label>Course Name: <input type="text" name="courseName" oninput="filterCourses()"></label>
+        <label>Course Category: <input type="text" name="courseCategory" oninput="filterCourses()"></label>
     </div>
 
     <section id="courses-container" class="courses-container">
@@ -93,5 +93,7 @@
             </ul>
         </div>
     </footer>
+    <script src="mainStudent.js"></script>
+    
 </body>
 </html>
