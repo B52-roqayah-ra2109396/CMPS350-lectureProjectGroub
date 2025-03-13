@@ -1,0 +1,554 @@
+{
+    "classes": [
+        {
+            "courseCode": "CMPS 151",
+            "title": "Programming Concepts",
+            "category": "Programming",
+            "classes": [
+                {
+                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "availableSeats": 12,
+                    "prerequisites": [],
+                    "time": "Sun-Tue-Thur (12pm)"
+                },
+                {
+                    "instructor": "Prof. Sarah Al-Mansouri",
+                    "availableSeats": 10,
+                    "prerequisites": [],
+                    "time": "Sun-Tue-Thur (10am)"
+                },
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 2,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (1pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 251",
+            "title": "Object Oriented Programming",
+            "category": "Programming",
+            "classes": [
+                {
+                    "instructor": "Dr. Noura Al-Thani",
+                    "availableSeats": 10,
+                    "prerequisites": [
+                        "CMPS 151"
+                    ],
+                    "time": "Sun-Tue-Thur (8am)"
+                },
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 7,
+                    "prerequisites": [
+                        "CMPS 151"
+                    ],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Omar Al-Obaidly",
+                    "availableSeats": 18,
+                    "prerequisites": [
+                        "CMPS 151"
+                    ],
+                    "time": "sUN-Tue-Thur (2pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 303",
+            "title": "Data Structures",
+            "category": "Programming",
+            "classes": [
+                {
+                    "instructor": "Dr. Fatima Al-Sulaiti",
+                    "availableSeats": 7,
+                    "prerequisites": [
+                        "CMPS 251"
+                    ],
+                    "time": "Sun-Tue-Thur (2pm)"
+                },
+                {
+                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "availableSeats": 22,
+                    "prerequisites": [
+                        "CMPS 251"
+                    ],
+                    "time": "Sun-Tue-Thur (2pm)"
+                },
+                {
+                    "instructor": "Dr. Mohamed Al-Naimi",
+                    "availableSeats": 1,
+                    "prerequisites": [
+                        "CMPS 251"
+                    ],
+                    "time": "Mon-Wed (11am)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 310",
+            "title": "Software Engineering",
+            "category": "Software Development",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 10,
+                    "prerequisites": [
+                        "CMPS 251"
+                    ],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Dr. Noura AL-Thani",
+                    "availableSeats": 8,
+                    "prerequisites": [
+                        "CMPS 251"
+                    ],
+                    "time": "Sun-Tue-Thur (3:30pm)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 4,
+                    "prerequisites": [
+                        "CMPS 251"
+                    ],
+                    "time": "Sun-Tue-Thur (2pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 350",
+            "title": "Web Development Fundamentals",
+            "category": "Web Development",
+            "classes": [
+                {
+                    "instructor": "Dr. Fatima Al-Sulaiti",
+                    "availableSeats": 7,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Sun-Tue-Thur (2pm)"
+                },
+                {
+                    "instructor": "Prof. Omar Al-Obaidly",
+                    "availableSeats": 19,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Mon-Wed (12pm)"
+                },
+                {
+                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "availableSeats": 20,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Sun-Tue-Thur (10am)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPE 263",
+            "title": "Computer Architecture and Organization I",
+            "category": "Programming",
+            "classes": [
+                {
+                    "instructor": "Dr. Mohamed Al-Naimi",
+                    "availableSeats": 20,
+                    "prerequisites": [],
+                    "time": "Time: Sun-Tue-Thur (8am)"
+                },
+                {
+                    "instructor": "Prof. Sarah Al-Mansouri",
+                    "availableSeats": 5,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (10am)"
+                },
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 10,
+                    "prerequisites": [],
+                    "time": "Sun-Tue-Thur (1pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPE 355",
+            "title": "Data Communication and Computer Networks I",
+            "category": "Networking",
+            "classes": [
+                {
+                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "availableSeats": 12,
+                    "prerequisites": [
+                        "CMPS 251"
+                    ],
+                    "time": "Sun-Tue-Thur (8am)"
+                },
+                {
+                    "instructor": "Dr. Fatima Al-Sulaiti",
+                    "availableSeats": 8,
+                    "prerequisites": [
+                        "CMPS 251"
+                    ],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 5,
+                    "prerequisites": [
+                        "CMPS 251"
+                    ],
+                    "time": "Mon-Wed (10am)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 405",
+            "title": "Operating Systems",
+            "category": "Programming",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 18,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Mon-Wed (10am)"
+                },
+                {
+                    "instructor": "Prof. Omar Al-Obaidly",
+                    "availableSeats": 10,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Mon-Wed (3:30pm)"
+                },
+                {
+                    "instructor": "Dr. Mohamed Al-Naimi",
+                    "availableSeats": 7,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Sun-Tue-Thur (10am)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 323",
+            "title": "Design and Analysis of Algorithms",
+            "category": "Programming",
+            "classes": [
+                {
+                    "instructor": "Dr. Fatima Al-Sulaiti",
+                    "availableSeats": 6,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Sun-Tue-Thur (1pm)"
+                },
+                {
+                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "availableSeats": 15,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Sun-Tue-Thur (10am)"
+                },
+                {
+                    "instructor": "Prof. Sarah Al-Mansouri",
+                    "availableSeats": 11,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Mon-Wed (10am)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 205",
+            "title": "Discrete Structures for Computing",
+            "category": "Mathematics",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "GENG 200",
+            "title": "Probability and Statistics for Engineers",
+            "category": "Mathematics",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [
+                        "MATH 102"
+                    ],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [
+                        "MATH 102"
+                    ],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [
+                        "MATH 102"
+                    ],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "GENG 300",
+            "title": "Numerical Methods",
+            "category": "Mathematics",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [
+                        "MATH 231",
+                        "CMPS 151"
+                    ],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [
+                        "MATH 231",
+                        "CMPS 151"
+                    ],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [
+                        "MATH 231",
+                        "CMPS 151"
+                    ],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "MATH 101",
+            "title": "Calculus I",
+            "category": "Mathematics",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "MATH 102",
+            "title": "Calculus II",
+            "category": "Mathematics",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [
+                        "MATH 101"
+                    ],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [
+                        "MATH 101"
+                    ],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [
+                        "MATH 101"
+                    ],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "MATH 231",
+            "title": "Linear Algebra",
+            "category": "Mathematics",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [
+                        "MATH 101"
+                    ],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [
+                        "MATH 101"
+                    ],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [
+                        "MATH 101"
+                    ],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 200",
+            "title": "Computer Ethics",
+            "category": "General",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 380",
+            "title": "Cybersecurity Fundamentals",
+            "category": "Security",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [
+                        "CMPS 303"
+                    ],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "CMPS 307",
+            "title": "Introduction to Project Management and Entrepreneurship",
+            "category": "Management",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        },
+        {
+            "courseCode": "MAGT 101",
+            "title": "Principles of Management",
+            "category": "Management",
+            "classes": [
+                {
+                    "instructor": "Dr. Khalid Al-Dosari",
+                    "availableSeats": 13,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (8am)"
+                },
+                {
+                    "instructor": "Prof. Yasmin Al-Jassim",
+                    "availableSeats": 9,
+                    "prerequisites": [],
+                    "time": "Sun-Tue-Thur (9am)"
+                },
+                {
+                    "instructor": "Dr. Ali Al-Kaabi",
+                    "availableSeats": 20,
+                    "prerequisites": [],
+                    "time": "Mon-Wed (3:30pm)"
+                }
+            ]
+        }
+    ]
+}
