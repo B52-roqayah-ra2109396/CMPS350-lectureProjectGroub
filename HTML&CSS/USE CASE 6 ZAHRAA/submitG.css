@@ -1,0 +1,186 @@
+
+
+header {
+    width: 100%;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    background-color: #C1D4FF;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    justify-content: space-between; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageTitle {
+    font-size: 45px;
+    top: 50%;
+    left: 50%;
+    color: black;
+    z-index: 2; 
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    display: inline-block;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 18px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+.GradesForm {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    display: grid;
+    gap: 15px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: canter;
+}
+
+th {
+    background-color: #ddd;
+}
+
+button {
+    background-color: rgb(116, 197, 224);
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    border-color: #6c6c6c;
+    width: 150px;
+    margin: 20px auto ;
+}
+button:hover {
+    background-color: #6c6c6c;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+   
+    color: black;
+    text-align: center;
+    width: 100vw;
+    border-top: 30px solid #C1D4FF ;
+    border-bottom: 30px solid  #C1D4FF;
+   
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+main #headerPic {
+    margin-top: 45px;
+    text-align: center;
+    position: relative;
+    padding: 100px 5%;
+    min-height: 230px; 
+    background: url("/Media/usecase6.png") center/cover no-repeat;
+}
+a:hover {
+    color: darkblue;
+    background-color: whitesmoke;
+}
+
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .logo img {
+        max-width: 150px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1024px) {
+    main {
+        width: 80%;
+    }
+    
+    .grid-container {
+        grid-template-columns: 1fr 1fr; 
+        gap: 40px;
+    }
+
+    .form-container {
+        padding: 25px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+}

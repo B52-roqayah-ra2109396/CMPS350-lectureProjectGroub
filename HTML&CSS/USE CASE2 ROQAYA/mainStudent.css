@@ -211,3 +211,7 @@ footer div li a {
     text-decoration: none;
     
 }
+a:hover {
+    color: darkblue;
+    background-color: whitesmoke;
+}
