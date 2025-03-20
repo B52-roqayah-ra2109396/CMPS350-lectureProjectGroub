@@ -1,20 +1,19 @@
 {
-    "users": [
-      {
-        "email": "student@example.com",
-        "password": "student123",
-        "role": "Student"
-      },
-      {
-        "email": "instructor@example.com",
-        "password": "instructor123",
-        "role": "Instructor"
-      },
-      {
-        "email": "admin@example.com",
-        "password": "admin123",
-        "role": "Administrator"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "email": "student@example.com",
+      "password": "student123",
+      "role": "Student"
+    },
+    {
+      "email": "instructor@example.com",
+      "password": "instructor123",
+      "role": "Instructor"
+    },
+    {
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "Administrator"
+    }
+  ]
+}

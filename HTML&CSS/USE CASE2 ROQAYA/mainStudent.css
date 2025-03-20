@@ -78,7 +78,7 @@ nav ul li a {
 }
 
 .course-banner {
-    background: url('/Media/Explore-courses.png') no-repeat center center;
+    background: url('../Media/Explore-courses.png') no-repeat center center;
     background-size: cover;
     padding: 60px 20px;
     color: black;

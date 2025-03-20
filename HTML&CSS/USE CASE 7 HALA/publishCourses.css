@@ -44,7 +44,7 @@ main .heading {
     position: relative;
     padding: 100px 5%;
     min-height: 300px; 
-    background: url("/Media/publishCourses.png") center/cover no-repeat;
+    background: url("../Media/publishCourses.png") center/cover no-repeat;
 }
 
 h1 {
@@ -174,7 +174,41 @@ footer {
     font-size: 18px;
     margin: 10px 0;
 }
-
+/* Container for the form data */
+#form-data {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    flex: 0 0 150px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+  .form-group select,
+  .form-group input[type="date"] {
+    flex: 1;
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
 @media (min-width: 768px) {
     .instructors-preferences {
         width: 100%;

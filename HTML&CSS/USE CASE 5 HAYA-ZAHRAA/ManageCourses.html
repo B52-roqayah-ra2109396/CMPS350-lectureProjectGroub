@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Courses</title>
     <link rel="stylesheet" href="ManageCourses.css">
-   
+
 </head>
-<body>
+
+<body onload="onLoadAction()">
     <header class="header">
         <div class="header-top">
-            <img src="/Media/qu.png" alt="Qatar University Logo" class="logo">
+            <img src="../Media/qu.png" alt="Qatar University Logo" class="logo">
 
             <nav class="nav-links">
-                <a href="/USE CASE2 ROQAYA/mainADMIN.html"><img src="/Icons/home.svg">Home</a>
-                <a href="/USE CASE1 ROQAYA/login.html"><img src="/Icons/logout.svg">Logout</a>
-                <a href="#contact"> <img src="/Icons/contact.svg"> Contact</a>
+                <a href="../USE CASE2 ROQAYA/mainADMIN.html"><img src="../Icons/home.svg">Home</a>
+                <a href="../USE CASE1 ROQAYA/login.html"><img src="../Icons/logout.svg">Logout</a>
+                <a href="#contact"> <img src="../Icons/contact.svg"> Contact</a>
             </nav>
         </div>
         <div class="header-content">
@@ -27,325 +29,33 @@
             </nav>
         </div>
     </header>
-        
+
     <main>
         <h1 class="section-title">In Progress Courses</h1>
         <section id="InProgressCourses">
-            <div class="course-category">
-                <h2>Programming and Software Development</h2>
-        
-                <div class="course">
-                    <h3>CMPS151-Programming Concepts</h3>
-                    <div class="class blue-bg">
-                        <p>Class 1: Instructor: Dr. Mohammed Saleh<br>Time: Sun, Tue, Thur<br>Students Enrolled: 30</p>
-                       
-                    </div>
-                    <div class="class white-bg">
-                        <p>Class 2: Instructor: Dr. Ahmed Al-Kuwari<br>Time: Mon, Wed<br>Students Enrolled: 22</p>
-                        
-                    </div>
-                    <div class="class blue-bg">
-                        <p>Class 3: Instructor: Prof. Sarah Al-Mansouri<br>Time: Sun, Tue, Thur<br>Students Enrolled: 31</p>
-                       
-                    </div>
-                </div>
-        
-                <div class="course">
-                    <h3>CMPS251-Object-Oriented Programming</h3>
-                    <div class="class blue-bg">
-                        <p>Class 1: Instructor: Dr. Saleh Al-Hazbi<br>Time: Sun, Tue, Thur<br>Students Enrolled: 20</p>
-                       
-                    </div>
-                    <div class="class white-bg">
-                        <p>Class 2: Instructor: Dr. Amal Al-Kuwari<br>Time: Mon, Wed<br>Students Enrolled: 35</p>
-                      
-                    </div>
-                    <div class="class blue-bg">
-                        <p>Class 3: Instructor: Prof. Ahmed Al-Mansouri<br>Time: Sun, Tue, Thur<br>Students Enrolled: 19</p>
-                       
-                    </div>
-                </div>
-            </div>
-        
-            <div class="course-category">
-                <h2>Computer Systems and Networks</h2>
-        
-                <div class="course">
-                    <h3>CMPE 263-Computer Architecture and Organization </h3>
-                    <div class="class blue-bg">
-                        <p>Class 1: Instructor: Dr. Ahmed Ahmed<br>Time: Sun, Tue, Thur<br>Students Enrolled: 29</p>
-                       
-                    </div>
-                    <div class="class white-bg">
-                        <p>Class 2: Instructor: Dr. Ali Al-Malki<br>Time: Mon, Wed<br>Students Enrolled: 22</p>
-                       
-                    </div>
-                    <div class="class blue-bg">
-                        <p>Class 3: Instructor: Prof. Nasser Al-Mansouri<br>Time: Sun, Tue, Thur<br>Students Enrolled: 31</p>
-                        
-                    </div>
-                </div>
-        
-                <div class="course">
-                    <h3>CMPE355-Data Communication & Network</h3>
-                    <div class="class blue-bg">
-                        <p>Class 1: Instructor: Dr. Zeyad Ali<br>Time: Sun, Tue, Thur<br>Students Enrolled: 20</p>
-                      
-                    </div>
-                    <div class="class white-bg">
-                        <p>Class 2: Instructor: Dr. Khalifa Al-Thani<br>Time: Mon, Wed<br>Students Enrolled: 30</p>
-                       
-                    </div>
-                    <div class="class blue-bg">
-                        <p>Class 3: Instructor: Prof. Nouf Al-Thani<br>Time: Sun, Tue, Thur<br>Students Enrolled: 30</p>
-                        
-                    </div>
-                </div>
-            </div>
-         
-        
-        
-        
-        
-        
-        
-            <div class="course-category">
-                <h2>Algorithms and Mathematics</h2>
-        
-                <div class="course">
-                    <h3>GENG300-Numerical  Methods</h3>
-                    <div class="class blue-bg">
-                        <p>Class 1: Instructor: Dr. Mohammed Saleh<br> Time: Sun, Tue, Thur<br>Students Enrolled: 30</p>
-                       
-                    </div>
-                    <div class="class white-bg">
-                        <p>Class 2: Instructor: Dr. Ahmed Al-Kuwari<br>Time: Mon, Wed<br>Students Enrolled: 22</p>
-                        
-                    </div>
-                    <div class="class blue-bg">
-                        <p>Class 3: Instructor: Prof. Sarah Al-Mansouri<br>Time: Sun,Tue,Thur<br> Students Enrolled: 31</p>
-                        
-                    </div>
-                </div>
-        
-                <div class="course">
-                    <h3>GENG200-Probability & Statistics</h3>
-                    <div class="class blue-bg">
-                        <p>Class 1: Instructor: Dr. Saleh Al-Hazbi<br> Time: Sun, Tue, Thur<br> Students Enrolled: 20</p>
-                        
-                    </div>
-                    <div class="class white-bg">
-                        <p>Class 2: Instructor: Dr. Amal Al-Kuwari<br>Time: Mon, Wed<br>Students Enrolled: 35</p>
-                        
-                    </div>
-                    <div class="class blue-bg">
-                        <p>Class 3: Instructor: Prof. Ahmed Al-Mansouri<br> Time: Sun,Tue,Thur<br>Students Enrolled: 19</p>
-                        
-                    </div>
-                </div>
-            </div>
-        
-        
-            <div class="course-category">
-                <h2>Cybersecurity, Ethics and Management</h2>
-        
-                <div class="course">
-                    <h3>MAGT101 Principles of Management</h3>
-                    <div class="class blue-bg">
-                        <p>Class 1: Instructor: Dr. Mohammed Saleh<br> Time: Sun, Tue, Thur<br>Students Enrolled: 30</p>
-                        
-                    </div>
-                    <div class="class white-bg">
-                        <p>Class 2: Instructor: Dr. Ahmed Al-Kuwari<br>Time: Mon, Wed<br>Students Enrolled: 22</p>
-                       
-                    </div>
-                    <div class="class blue-bg">
-                        <p>Class 3: Instructor: Prof. Sarah Al-Mansouri<br>Time: Sun,Tue,Thur<br> Students Enrolled: 31</p>
-                        
-                    </div>
-                </div>
-        
-                
-            </div>
-
-
 
         </section>
 
-
+        <h1 class="section-title">Open For Registration</h1>
         <section id="OpenForRegistration">
-            <h1 class="section-title">Open For Registration</h1>
-
-    <div class="course-category">
-        <h2>Programming and Software Development</h2>
-
-        <div class="course">
-            <h3>CMPS151-Programming Concepts</h3>
-            <div class="class blue-bg">
-                <p>Class 1: Instructor: Dr. Mohammed Saleh<br>Time: Sun, Tue, Thur<br>Students Enrolled: 30</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class white-bg">
-                <p>Class 2: Instructor: Dr. Ahmed Al-Kuwari<br>Time: Mon, Wed<br>Students Enrolled: 22</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class blue-bg">
-                <p>Class 3: Instructor: Prof. Sarah Al-Mansouri<br>Time: Sun, Tue, Thur<br>Students Enrolled: 31</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-        </div>
-
-        <div class="course">
-            <h3>CMPS251-Object-Oriented Programming</h3>
-            <div class="class blue-bg">
-                <p>Class 1: Instructor: Dr. Saleh Al-Hazbi<br>Time: Sun, Tue, Thur<br>Students Enrolled: 20</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class white-bg">
-                <p>Class 2: Instructor: Dr. Amal Al-Kuwari<br>Time: Mon, Wed<br>Students Enrolled: 35</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class blue-bg">
-                <p>Class 3: Instructor: Prof. Ahmed Al-Mansouri<br>Time: Sun, Tue, Thur<br>Students Enrolled: 19</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="course-category">
-        <h2>Computer Systems and Networks</h2>
-
-        <div class="course">
-            <h3>CMPE263-Computer Architecture and Organization</h3>
-            <div class="class blue-bg">
-                <p>Class 1: Instructor: Dr. Ahmed Ahmed<br>Time: Sun, Tue, Thur<br>Students Enrolled: 29</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class white-bg">
-                <p>Class 2: Instructor: Dr. Ali Al-Malki<br>Time: Mon, Wed<br>Students Enrolled: 22</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class blue-bg">
-                <p>Class 3: Instructor: Prof. Nasser Al-Mansouri<br>Time: Sun, Tue, Thur<br>Students Enrolled: 31</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-        </div>
-
-        <div class="course">
-            <h3>CMPE355-Data Communication & Network</h3>
-            <div class="class blue-bg">
-                <p>Class 1: Instructor: Dr. Zeyad Ali<br>Time: Sun, Tue, Thur<br>Students Enrolled: 20</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class white-bg">
-                <p>Class 2: Instructor: Dr. Khalifa Al-Thani<br>Time: Mon, Wed<br>Students Enrolled: 30</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class blue-bg">
-                <p>Class 3: Instructor: Prof. Nouf Al-Thani<br>Time: Sun, Tue, Thur<br>Students Enrolled: 30</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="course-category">
-        <h2>Algorithms and Mathematics</h2>
-
-        <div class="course">
-            <h3>MAGT101-Principles of Management</h3>
-            <div class="class blue-bg">
-                <p>Class 1: Instructor: Dr. Mohammed Saleh<br> Time: Sun, Tue, Thur<br>Students Enrolled: 30</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class white-bg">
-                <p>Class 2: Instructor: Dr. Ahmed Al-Kuwari<br>Time: Mon, Wed<br>Students Enrolled: 22</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-            <div class="class blue-bg">
-                <p>Class 3: Instructor: Prof. Sarah Al-Mansouri<br>Time: Sun,Tue,Thur<br> Students Enrolled: 31</p>
-            </div>
-            <div class="button-container">
-                <button class="cancel-btn">CANCEL</button>
-                <button class="validate-btn">VALIDATE</button>
-            </div>
-        </div>
-
-        
-    </div>
- 
-
-
-
-
-
+            
         </section>
-
-       
-
-
-    
-
-
-    
     </main>
     <footer>
         <div class="footer-container">
             <h3>Contact Us</h3>
             <ul id="contact">
-                <li><img src="/Icons/address.svg">  Address: Qatar University, University Street, Doha, Qatar</li>
-                <li><img src="/Icons/contact.svg"> Phone: +974 4403 3333</li>
-                <li><img src="/Icons/email.svg"> Email: QUMCC@qu.edu.qa</li>
+                <li><img src="../Icons/address.svg"> Address: Qatar University, University Street, Doha, Qatar</li>
+                <li><img src="../Icons/contact.svg"> Phone: +974 4403 3333</li>
+                <li><img src="../Icons/email.svg"> Email: QUMCC@qu.edu.qa</li>
             </ul>
         </div>
     </footer>
-    
 
 
-   
-       
 
-    
+
+
+    <script src="manageCourses.js"></script>
+
 </body>

@@ -32,12 +32,12 @@ a:hover{
     background-color:whitesmoke;
 }
 main .heading {
-    margin-top: 45px;
+    margin-top: 0px;
     text-align: center;
     position: relative;
     padding: 100px 26px;
-    min-height: 290px; 
-    background-image: url("/Media/createCourses.png");
+    min-height: 120px; 
+    background-image: url("../Media/createCourses.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,38 +55,62 @@ h1 {
 }
 
 
-main #forms{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    margin-top: 20px;
-} 
-
 .classForm {
     width: 100%;
     max-width: 600px;
     padding: 20px;
-    background-color: #d9d9d9;
+    background-color: #f8f9fa;
     border-radius: 10px;
     margin: 0 auto;
+    margin-bottom: 35px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
+.classForm h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Form Grid Layout */
 .classForm form {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
 }
 
-.classForm label {
+/* Label and Input in One Row */
+.form-group {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 
+.classForm label {
+    font-weight: bold;
+    color: #444;
+    width: 40%; /* Label takes 40% */
+    text-align: left;
+}
+
+.classForm select,
+.classForm input {
+    width: 100%; /* Input takes 55% */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.classForm select:focus,
+.classForm input:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
 
 .newClass {
     position: relative;
@@ -154,14 +178,17 @@ html, body{
         width: 100%;
     }
 
-    .classForm {
-        width: 90%;
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
     }
-
-    .classForm form {
-        grid-template-columns: 1fr;
+    
+    .classForm label,
+    .classForm select,
+    .classForm input {
+        width: 100%;
+        text-align: left;
     }
-
     .logo img {
         max-width: 150px;
     }

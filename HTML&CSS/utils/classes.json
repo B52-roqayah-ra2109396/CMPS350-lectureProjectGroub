@@ -3,23 +3,31 @@
         {
             "courseCode": "CMPS 151",
             "title": "Programming Concepts",
-            "category": "Programming",
+            "category": "Programming & Software Development",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Ahmed Al-Kuwari",
                     "availableSeats": 12,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Sun-Tue-Thur (12pm)"
                 },
                 {
                     "instructor": "Prof. Sarah Al-Mansouri",
                     "availableSeats": 10,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Sun-Tue-Thur (10am)"
                 },
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 2,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (1pm)"
                 }
@@ -28,11 +36,15 @@
         {
             "courseCode": "CMPS 251",
             "title": "Object Oriented Programming",
-            "category": "Programming",
+            "category": "Programming & Software Development",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Noura Al-Thani",
-                    "availableSeats": 10,
+                    "availableSeats": 15,
+                    "studentEnrolled": 15,
+                    "isValidated": 1,
                     "prerequisites": [
                         "CMPS 151"
                     ],
@@ -40,7 +52,9 @@
                 },
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
-                    "availableSeats": 7,
+                    "availableSeats": 17,
+                    "studentEnrolled": 15,
+                    "isValidated": 1,
                     "prerequisites": [
                         "CMPS 151"
                     ],
@@ -49,6 +63,8 @@
                 {
                     "instructor": "Prof. Omar Al-Obaidly",
                     "availableSeats": 18,
+                    "studentEnrolled": 18,
+                    "isValidated": 1,
                     "prerequisites": [
                         "CMPS 151"
                     ],
@@ -59,11 +75,15 @@
         {
             "courseCode": "CMPS 303",
             "title": "Data Structures",
-            "category": "Programming",
+            "category": "Programming & Software Development",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Fatima Al-Sulaiti",
-                    "availableSeats": 7,
+                    "availableSeats": 15,
+                    "studentEnrolled": 15,
+                    "isValidated": 1,
                     "prerequisites": [
                         "CMPS 251"
                     ],
@@ -72,6 +92,8 @@
                 {
                     "instructor": "Dr. Ahmed Al-Kuwari",
                     "availableSeats": 22,
+                    "studentEnrolled": 17,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 251"
                     ],
@@ -80,6 +102,8 @@
                 {
                     "instructor": "Dr. Mohamed Al-Naimi",
                     "availableSeats": 1,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 251"
                     ],
@@ -90,11 +114,15 @@
         {
             "courseCode": "CMPS 310",
             "title": "Software Engineering",
-            "category": "Software Development",
+            "category": "Programming & Software Development",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
-                    "availableSeats": 10,
+                    "availableSeats": 18,
+                    "studentEnrolled": 15,
+                    "isValidated": 1,
                     "prerequisites": [
                         "CMPS 251"
                     ],
@@ -103,6 +131,8 @@
                 {
                     "instructor": "Dr. Noura AL-Thani",
                     "availableSeats": 8,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 251"
                     ],
@@ -111,6 +141,8 @@
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 4,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 251"
                     ],
@@ -121,11 +153,15 @@
         {
             "courseCode": "CMPS 350",
             "title": "Web Development Fundamentals",
-            "category": "Web Development",
+            "category": "Programming & Software Development",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Fatima Al-Sulaiti",
                     "availableSeats": 7,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -134,6 +170,8 @@
                 {
                     "instructor": "Prof. Omar Al-Obaidly",
                     "availableSeats": 19,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -142,6 +180,8 @@
                 {
                     "instructor": "Dr. Ahmed Al-Kuwari",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -152,23 +192,31 @@
         {
             "courseCode": "CMPE 263",
             "title": "Computer Architecture and Organization I",
-            "category": "Programming",
+            "category": "Computer Systems & Networks",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Mohamed Al-Naimi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Time: Sun-Tue-Thur (8am)"
                 },
                 {
                     "instructor": "Prof. Sarah Al-Mansouri",
                     "availableSeats": 5,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (10am)"
                 },
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 10,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Sun-Tue-Thur (1pm)"
                 }
@@ -177,11 +225,15 @@
         {
             "courseCode": "CMPE 355",
             "title": "Data Communication and Computer Networks I",
-            "category": "Networking",
+            "category": "Computer Systems & Networks",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Ahmed Al-Kuwari",
                     "availableSeats": 12,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 251"
                     ],
@@ -190,6 +242,8 @@
                 {
                     "instructor": "Dr. Fatima Al-Sulaiti",
                     "availableSeats": 8,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 251"
                     ],
@@ -198,6 +252,8 @@
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 5,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 251"
                     ],
@@ -208,11 +264,15 @@
         {
             "courseCode": "CMPS 405",
             "title": "Operating Systems",
-            "category": "Programming",
+            "category": "Computer Systems & Networks",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 18,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -221,6 +281,8 @@
                 {
                     "instructor": "Prof. Omar Al-Obaidly",
                     "availableSeats": 10,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -229,6 +291,8 @@
                 {
                     "instructor": "Dr. Mohamed Al-Naimi",
                     "availableSeats": 7,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -239,11 +303,15 @@
         {
             "courseCode": "CMPS 323",
             "title": "Design and Analysis of Algorithms",
-            "category": "Programming",
+            "category": "Algorithms & Mathematics",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Fatima Al-Sulaiti",
                     "availableSeats": 6,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -252,6 +320,8 @@
                 {
                     "instructor": "Dr. Ahmed Al-Kuwari",
                     "availableSeats": 15,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -260,6 +330,8 @@
                 {
                     "instructor": "Prof. Sarah Al-Mansouri",
                     "availableSeats": 11,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -270,23 +342,31 @@
         {
             "courseCode": "CMPS 205",
             "title": "Discrete Structures for Computing",
-            "category": "Mathematics",
+            "category": "Algorithms & Mathematics",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (8am)"
                 },
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (3:30pm)"
                 }
@@ -295,11 +375,15 @@
         {
             "courseCode": "GENG 200",
             "title": "Probability and Statistics for Engineers",
-            "category": "Mathematics",
+            "category": "Algorithms & Mathematics",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 102"
                     ],
@@ -308,6 +392,8 @@
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 102"
                     ],
@@ -316,6 +402,8 @@
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 102"
                     ],
@@ -326,11 +414,15 @@
         {
             "courseCode": "GENG 300",
             "title": "Numerical Methods",
-            "category": "Mathematics",
+            "category": "Algorithms & Mathematics",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 231",
                         "CMPS 151"
@@ -340,6 +432,8 @@
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 231",
                         "CMPS 151"
@@ -349,6 +443,8 @@
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 231",
                         "CMPS 151"
@@ -360,23 +456,31 @@
         {
             "courseCode": "MATH 101",
             "title": "Calculus I",
-            "category": "Mathematics",
+            "category": "Algorithms & Mathematics",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (8am)"
                 },
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (3:30pm)"
                 }
@@ -385,11 +489,15 @@
         {
             "courseCode": "MATH 102",
             "title": "Calculus II",
-            "category": "Mathematics",
+            "category": "Algorithms & Mathematics",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 101"
                     ],
@@ -398,6 +506,8 @@
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 101"
                     ],
@@ -406,6 +516,8 @@
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 101"
                     ],
@@ -416,11 +528,15 @@
         {
             "courseCode": "MATH 231",
             "title": "Linear Algebra",
-            "category": "Mathematics",
+            "category": "Algorithms & Mathematics",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 101"
                     ],
@@ -429,6 +545,8 @@
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 101"
                     ],
@@ -437,6 +555,8 @@
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "MATH 101"
                     ],
@@ -447,23 +567,31 @@
         {
             "courseCode": "CMPS 200",
             "title": "Computer Ethics",
-            "category": "General",
+            "category": "Cybersecurity, Ethics & Management",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (8am)"
                 },
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (3:30pm)"
                 }
@@ -472,11 +600,15 @@
         {
             "courseCode": "CMPS 380",
             "title": "Cybersecurity Fundamentals",
-            "category": "Security",
+            "category": "Cybersecurity, Ethics & Management",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -485,6 +617,8 @@
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -493,6 +627,8 @@
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"
                     ],
@@ -503,23 +639,31 @@
         {
             "courseCode": "CMPS 307",
             "title": "Introduction to Project Management and Entrepreneurship",
-            "category": "Management",
+            "category": "Cybersecurity, Ethics & Management",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (8am)"
                 },
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (3:30pm)"
                 }
@@ -528,23 +672,31 @@
         {
             "courseCode": "MAGT 101",
             "title": "Principles of Management",
-            "category": "Management",
+            "category": "Cybersecurity, Ethics & Management",
+            "semester": "Fall",
+            "year": "2025",
             "classes": [
                 {
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (8am)"
                 },
                 {
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
                     "instructor": "Dr. Ali Al-Kaabi",
                     "availableSeats": 20,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [],
                     "time": "Mon-Wed (3:30pm)"
                 }

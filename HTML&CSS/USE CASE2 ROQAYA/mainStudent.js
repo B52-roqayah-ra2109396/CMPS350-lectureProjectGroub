@@ -19,32 +19,37 @@ function displayCourses(courses) {
 }
 
 function filterCourses() {
-  const courseName = document.querySelector("input[name='courseName']");
-  const courseCategory = document.querySelector(
-    "input[name='courseCategory']"
-  );
-  let courses = [];
-  fetch("../utils/courses.json")
-    .then((response) => response.json())
-    .then((data) => {
-      courses = data.courses;
-      const courseTitle = courseName.value.trim().toLowerCase();
-      const category = courseCategory.value.trim().toLowerCase();
-      if (courseTitle === "" && category === "") {
-        displayCourses(courses);
-        return;
-      }
-      const filteredCourses = courses.filter((course) => {
-        const matchesName = courseTitle
-          ? course.name.toLowerCase().includes(courseTitle)
-          : true;
-        const matchesCategory = category
-          ? course.category.toLowerCase().includes(category)
-          : true;
-        return matchesName && matchesCategory;
-      });
+  const courseName = document.querySelector("input[name='courseName']").value.trim().toLowerCase();
+  const courseCategory = document.querySelector("input[name='courseCategory']").value.trim().toLowerCase();
 
-      displayCourses(filteredCourses);
-    })
-    .catch((error) => console.error("Error loading courses:", error));
+  let storedCourses = localStorage.getItem("coursesData")||null;
+
+  if (storedCourses) {
+    let courses = JSON.parse(storedCourses);
+    applyFilter(courses.courses, courseName, courseCategory);
+  } else {
+    fetch("../utils/courses.json")
+      .then((response) => response.json())
+      .then((data) => {
+        let courses = data.courses;
+        localStorage.setItem("coursesData", JSON.stringify(data)); 
+        applyFilter(courses, courseName, courseCategory);
+      })
+      .catch((error) => console.error("Error loading courses:", error));
+  }
+}
+
+function applyFilter(courses, courseTitle, category) {
+  if (courseTitle === "" && category === "") {
+    displayCourses(courses);
+    return;
+  }
+
+  const filteredCourses = courses.filter((course) => {
+    const matchesName = courseTitle ? course.name.toLowerCase().includes(courseTitle) : true;
+    const matchesCategory = category ? course.category.toLowerCase().includes(category) : true;
+    return matchesName && matchesCategory;
+  });
+
+  displayCourses(filteredCourses);
 }
