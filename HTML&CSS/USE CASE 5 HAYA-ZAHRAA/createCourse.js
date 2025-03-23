@@ -51,6 +51,7 @@ function populateDropdowns() {
     }
 
     fillDropdown("category1", categories);
+    fillDropdown("courseCategory", categories);
     populatePrerequisiteDropdown();
     populateYearDropdown("year");
     document.getElementById("category1")?.addEventListener("change", updateCoursesDropdown);
@@ -141,10 +142,13 @@ function populatePrerequisiteDropdown() {
 // 🎯 Course Submission Function
 function handleCourseSubmission(event) {
     //   event.preventDefault();
+    let courseCodeInput = document.getElementById("courseCode");
+    let courseNameInput = document.getElementById("courseName");
+    let categoryInput = document.getElementById("courseCategory");
 
-    let courseCode = document.getElementById("courseCode").value.trim();
-    let courseName = document.getElementById("courseName").value.trim();
-    let category = document.getElementById("courseCategory").value.trim();
+    let courseCode = courseCodeInput.value.trim();
+    let courseName = courseNameInput.value.trim();
+    let category = categoryInput.value.trim();
 
     if (!courseCode || !courseName || !category) {
         alert("Please fill in all fields!");
@@ -180,21 +184,33 @@ function handleCourseSubmission(event) {
     localStorage.setItem("coursesData", JSON.stringify(coursesData));
 
     alert("Course added successfully!");
-    populateDropdowns(); // Refresh dropdowns to include the new course
+    courseCodeInput.value = "";
+    courseNameInput.value = "";
+    categoryInput.value = "";
+    populateDropdowns(); 
 }
 
 // 🎯 Class Submission Function
 function handleClassSubmission(event) {
     //   event.preventDefault();
 
-    let category = document.getElementById("category1").value;
-    let course = JSON.parse(document.getElementById("course").value);
-    let instructor = document.getElementById("name1").value;
-    let semester = document.getElementById("semester").value;
-    let year = document.getElementById("year").value;
-    let time = document.getElementById("time").value;
-    let seats = document.getElementById("seats1").value;
-    let prerequisites = Array.from(document.getElementById("prereq").selectedOptions).map((opt) => opt.value);
+    let categoryInput = document.getElementById("category1");
+    let courseInput = document.getElementById("course");
+    let instructorInput = document.getElementById("name1");
+    let semesterInput = document.getElementById("semester");
+    let yearInput = document.getElementById("year");
+    let timeInput = document.getElementById("time");
+    let seatsInput = document.getElementById("seats1");
+    let prerequisitesInput = document.getElementById("prereq");
+
+    let category = categoryInput.value;
+    let course = JSON.parse(courseInput.value);
+    let instructor = instructorInput.value;
+    let semester = semesterInput.value;
+    let year = yearInput.value;
+    let time = timeInput.value;
+    let seats = seatsInput.value;
+    let prerequisites = Array.from(prerequisitesInput.selectedOptions).map((opt) => opt.value);
     if (prerequisites.includes('None')) {
         prerequisites = []
     }
@@ -230,6 +246,14 @@ function handleClassSubmission(event) {
             existingCourse.classes.push({ instructor, availableSeats: parseInt(seats), studentEnrolled: 0, isValidated: 0, prerequisites, time });
             localStorage.setItem("classesData", JSON.stringify(classesData));
             alert("New class added under existing course!");
+            categoryInput.value = "";
+            courseInput.value = "";
+            instructorInput.value = "";
+            semesterInput.value = "";
+            yearInput.value = "";
+            timeInput.value = "";
+            seatsInput.value = "";
+            prerequisitesInput.value = "";
             return;
         }
     }
@@ -256,4 +280,12 @@ function handleClassSubmission(event) {
     console.log(classesData);
     localStorage.setItem("classesData", JSON.stringify(classesData));
     alert("New course and class added successfully!");
+    categoryInput.value = "";
+            courseInput.value = "";
+            instructorInput.value = "";
+            semesterInput.value = "";
+            yearInput.value = "";
+            timeInput.value = "";
+            seatsInput.value = "";
+            prerequisitesInput.value = "";
 }

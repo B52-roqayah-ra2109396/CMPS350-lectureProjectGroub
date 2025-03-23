@@ -90,7 +90,9 @@
                 <form>
                     <div class="form-group">
                         <label for="courseCategory">Enter Category:</label>
-                        <input type="text" name="courseCategory" id="courseCategory" placeholder="Category">
+                        <select id="courseCategory" name="courseCategory" required>
+                            <option value="" disabled selected>-</option>
+                        </select>
                     </div>
                     <div class="form-group">
                         <label for="courseCode">Enter Course Code:</label>

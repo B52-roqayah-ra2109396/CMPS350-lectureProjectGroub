@@ -1,10 +1,10 @@
+
 // localStorage.removeItem("classesData");
-//     localStorage.removeItem("coursesData")
-//     alert("data is cleared")
+// localStorage.removeItem("coursesData")
+// alert("data cleared")
 function handleLogin(event) {
     event.preventDefault(); 
     
-
     const email = document.querySelector("#email").value;
     const password = document.querySelector("#password").value;
     const selectedRole = document.querySelector("input[name='role']:checked").value;

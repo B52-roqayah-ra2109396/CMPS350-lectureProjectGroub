@@ -53,67 +53,37 @@ function displayCourses(courses) {
 function filterCourses() {
   const courseName = document.querySelector("input[name='courseName']");
   const courseCategory = document.querySelector("input[name='courseCategory']");
-  let courses = [];
+  const courseTitle = courseName.value.trim().toLowerCase();
+  const category = courseCategory.value.trim().toLowerCase();
+
+  function applyFilter(courses) {
+    const filteredCourses = courses.filter((course) => {
+      let matchesName = true;
+      let matchesCategory = true;
+
+      if (courseTitle !== "") {
+        matchesName = course.title.toLowerCase().includes(courseTitle);
+      }
+      if (category !== "") {
+        matchesCategory = course.category.toLowerCase().includes(category);
+      }
+
+      return (
+        matchesName &&
+        matchesCategory &&
+        course.classes.some((cls) => cls.isValidated === 0)
+      );
+    });
+    displayCourses(filteredCourses);
+  }
+
   const storedData = localStorage.getItem("classesData");
   if (storedData) {
-    data = JSON.parse(storedData);
-    courses = data.classes;
-    const courseTitle = courseName.value.trim().toLowerCase();
-        const category = courseCategory.value.trim().toLowerCase();
-        if (courseTitle === "" && category === "") {
-          displayCourses(
-            courses.filter((course) =>
-              course.classes.some((cls) => cls.isValidated === 0)
-            )
-          );
-          return;
-        }
-        const filteredCourses = courses.filter((course) => {
-          const matchesName = courseTitle
-            ? course.title.toLowerCase().includes(courseTitle)
-            : true;
-          const matchesCategory = category
-            ? course.category.toLowerCase().includes(category)
-            : true;
-          return (
-            matchesName &&
-            matchesCategory &&
-            course.classes.some((cls) => cls.isValidated === 0)
-          );
-        });
-
-        displayCourses(filteredCourses);
+    applyFilter(JSON.parse(storedData).classes);
   } else {
     fetch("../utils/classes.json")
       .then((response) => response.json())
-      .then((data) => {
-        courses = data.classes;
-        const courseTitle = courseName.value.trim().toLowerCase();
-        const category = courseCategory.value.trim().toLowerCase();
-        if (courseTitle === "" && category === "") {
-          displayCourses(
-            courses.filter((course) =>
-              course.classes.some((cls) => cls.isValidated === 0)
-            )
-          );
-          return;
-        }
-        const filteredCourses = courses.filter((course) => {
-          const matchesName = courseTitle
-            ? course.title.toLowerCase().includes(courseTitle)
-            : true;
-          const matchesCategory = category
-            ? course.category.toLowerCase().includes(category)
-            : true;
-          return (
-            matchesName &&
-            matchesCategory &&
-            course.classes.some((cls) => cls.isValidated === 0)
-          );
-        });
-
-        displayCourses(filteredCourses);
-      })
+      .then((data) => applyFilter(data.classes))
       .catch((error) => console.error("Error loading courses:", error));
   }
 }
