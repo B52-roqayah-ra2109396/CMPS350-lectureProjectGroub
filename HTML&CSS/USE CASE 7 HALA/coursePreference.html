@@ -1,136 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Submit Course Preferences</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="coursePreference.css" />
-  </head>
-  <body>
+<head>
+    <title>Instructor Course Preferences</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="coursePreference.css">
+    <script defer src="coursePreference.js"></script>
+</head>
+<body onload="onLoadAction()">
     <header>
         <div class="logo">
-            <img src="/Media/qu.png"  alt="Qatar University Logo" width="200" height="80">
+            <img src="../Media/qu.png" alt="Qatar University Logo" width="200" height="80">
         </div>
         <nav>
             <ul>
-                <li><a href="/USE CASE2 ROQAYA/mainINSTR.html"><img src="/Icons/home.svg" alt="home icon"/>Home</a></li>
-                <li><a href="/USE CASE1 ROQAYA/login.html"><img src="/Icons/logout.svg" alt="logout icon"/>Logout</a></li>
-                <li><a href="#contact"><img src="/Icons/contact.svg" alt="contact icon"/>Contact</a></li>
+                <li><a href="../USE CASE2 ROQAYA/mainINSTR.html"><img src="../Icons/home.svg" alt="home icon"/> Home</a></li>
+                <li><a href="../USE CASE1 ROQAYA/login.html"><img src="../Icons/logout.svg" alt="logout icon"/> Logout</a></li>
+                <li><a href="#contact"><img src="../Icons/contact.svg" alt="contact icon"/> Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="heading">
-        <h1><span>Submit Your Courses Preferences</h1>
+            <h1>View & Submit Your Course Preferences</h1>
         </section>
+
         <section class="instructors-preferences">
             <div class="preferences-message">
-                <h2>Submit Your Course Preferences</h2>
-                <p>Please select the courses you are interested in teaching for the upcoming term. You can rank your preferences to help the administrator make assignment decisions. Once submitted, your preferences will be considered after the deadline.</p>
-                
-                <ul>
-                    <li><strong>Review the available courses</strong></li>
-                    <li><strong>Select and rank your preferred courses</strong></li>
-                    <li><strong>Submit before the deadline</strong></li>
-                </ul>
-            
-                <p>After submission, you won’t be able to make changes. Make sure your selections reflect your preferences accurately.</p>
+                <h2>Published Courses</h2>
+                <p>Select your preferred courses by clicking on "Select" and submit your choices before the deadline.</p>
             </div>
 
-            <div id="checkboxContainer">
-                <h3>Select Your Preferred Courses:</h3>
-                <div id="Programming">
-                <h4>Programming & Software Development</h4>
-                <label>
-                    <input type="checkbox" name="cmps151" value="cmps151"> CMPS 151 Programming Concepts
-                </label><br>
-                
-                <label>
-                    <input type="checkbox" name="cmps251" value="cmps251"> CMPS 251 Object-Oriented Programming
-                </label><br>
-                
-                <label>
-                    <input type="checkbox" name="cmps303" value="cmps303"> CMPS 303 Data Structures
-                </label><br>
-                
-                <label>
-                    <input type="checkbox" name="cmps310" value="cmps310"> CMPS 310 Software Engineering
-                </label><br>
-                <label>
-                    <input type="checkbox" name="cmps350" value="cmps350"> CMPS 350 Web Development Fundamentals
-                </label><br>
+            <div id="publishedCoursesContainer">
+                <h3>Available Courses:</h3>
+                <div class="course-cards-container" id="courseList">
+                    <!-- Courses will be dynamically loaded as cards -->
                 </div>
-                <div id="SystemsNetworks">
-                    <h4>Computer Systems & Networks</h4>
-                    <label>
-                        <input type="checkbox" name="cmpe263" value="cmpe263"> CMPE 263 Computer Architecture and Organization I
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="cmpe355" value="cmpe355"> CMPE 355 Data Communication and Computer Networks I
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="cmps405" value="cmps405"> CMPS 405 Operating Systems
-                    </label><br>
-                </div>
-                
-                
-                <div id="AlgorithmsMath">
-                    <h4>Algorithms & Mathematics</h4>
-                    <label>
-                        <input type="checkbox" name="cmps323" value="cmps323"> CMPS 323 Design and Analysis of Algorithms
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="cmps205" value="cmps205"> CMPS 205 Discrete Structures for Computing
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="geng200" value="geng200"> GENG 200 Probability and Statistics for Engineers
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="geng300" value="geng300"> GENG 300 Numerical Methods
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="math101" value="math101"> MATH 101 Calculus I
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="math102" value="math102"> MATH 102 Calculus II
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="math231" value="math231"> MATH 231 Linear Algebra
-                    </label><br>
-                </div>
-                
-                
-                <div id="CyberEthics">
-                    <h4>Cybersecurity, Ethics & Management</h4>
-                    <label>
-                        <input type="checkbox" name="cmps200" value="cmps200"> CMPS 200 Computer Ethics
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="cmps380" value="cmps380"> CMPS 380 Cybersecurity Fundamentals
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="cmps307" value="cmps307"> CMPS 307 Introduction to Project Management and Entrepreneurship
-                    </label><br>
-                    <label>
-                        <input type="checkbox" name="magt101" value="magt101"> MAGT 101 Principles of Management
-                    </label><br>
-                </div>
-            
-                <button type="submit">Submit Preferences</button>
             </div>
-        
+
+            <h3>Your Selected Preferences:</h3>
+            <div id="selectedPreferences">
+                <p>No courses selected yet.</p>
+            </div>
+
+            <button id="submitPreferences" onclick="submitCourse()">Submit Preferences</button>
         </section>
     </main>
-        <footer>
-            <div class="footer-container">
-                <h3>Contact Us</h3>
-                <ul id="contact">
-                    <li><img src="/Icons/address.svg" alt="address icon">  Address: Qatar University, University Street, Doha, Qatar</li>
-                    <li><img src="/Icons/contact.svg" alt="home icon"/> Phone: +974 4403 3333</li>
-                    <li><img src="/Icons/email.svg" alt="email icon"/> Email: QUMCC@qu.edu.qa</li>
-                </ul>
-            </div>
-        </footer>
-        
-    </body>
+
+    <footer>
+        <div class="footer-container">
+            <h3>Contact Us</h3>
+            <ul id="contact">
+                <li><img src="../Icons/address.svg" alt="address icon"> Address: Qatar University, University Street, Doha, Qatar</li>
+                <li><img src="../Icons/contact.svg" alt="home icon"/> Phone: +974 4403 3333</li>
+                <li><img src="../Icons/email.svg" alt="email icon"/> Email: QUMCC@qu.edu.qa</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
 </html>

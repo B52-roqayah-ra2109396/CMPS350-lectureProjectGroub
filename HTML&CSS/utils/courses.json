@@ -20,6 +20,14 @@
     { "code": "MATH 102", "name": "Calculus II", "category": "Algorithm & Mathematics" },
     { "code": "MATH 231", "name": "Linear Algebra", "category": "Algorithm & Mathematics" },
     { "code": "CMPS 307", "name": "Introduction to Project Management & Entrepreneurship", "category": "Cybersecurity, Ethics & Management" },
-    { "code": "MAGT 101", "name": "Principles of Management", "category": "Cybersecurity, Ethics & Management" }
+    { "code": "MAGT 101", "name": "Principles of Management", "category": "Cybersecurity, Ethics & Management" },
+    { "code": "CMPS 493", "name": "Senior Project I", "category": "Cybersecurity, Ethics & Management" },
+    { "code": "CMPS 499", "name": "Senior Project II", "category": "Cybersecurity, Ethics & Management" },
+    { "code": "CMPS 381", "name": "Applied Cryptography", "category": "Cybersecurity, Ethics & Management" },
+    { "code": "CMPS 481", "name": "Enterprise Cybersecurity", "category": "Cybersecurity, Ethics & Management" },
+    { "code": "CMPS 482", "name": "Cyber-Physical Systems Security", "category": "Cybersecurity, Ethics & Management" },
+    { "code": "CMPS 483", "name": "Digital Forensics", "category": "Cybersecurity, Ethics & Management" },
+    { "code": "CMPS 489", "name": "Special Topics in Cybersecurity", "category": "Cybersecurity, Ethics & Management" }
+    
   ]
 }

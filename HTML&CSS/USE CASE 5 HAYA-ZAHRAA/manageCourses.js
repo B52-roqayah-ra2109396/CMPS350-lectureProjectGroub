@@ -136,7 +136,7 @@ async function loadOpenForRegistrationCourses() {
                         `;
                     });
                     courseHtml += `</div>`;
-                    coursesHtml += courseHtml;
+                    coursesHtml += courseHtml ;
                 }
             });
             if (coursesHtml) {

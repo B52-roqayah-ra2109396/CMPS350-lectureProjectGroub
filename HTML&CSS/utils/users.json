@@ -1,14 +1,173 @@
 {
   "users": [
     {
-      "email": "student@example.com",
+      "email": "haya@example.com",
       "password": "student123",
-      "role": "Student"
+      "role": "Student",
+      "name": "Haya",
+      "completedCourses": ["CS101", "MATH202"],
+      "inProgressCourses": ["PHY303", "ENG101"],
+      "pendingCourses": ["CHEM101"]
     },
     {
-      "email": "instructor@example.com",
+      "email": "hala@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Hala",
+      "completedCourses": ["BIO102", "CS101"],
+      "inProgressCourses": ["MATH202"],
+      "pendingCourses": ["PHY303", "ENG101"]
+    },
+    {
+      "email": "aldana@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Al Dana",
+      "completedCourses": ["ENG101"],
+      "inProgressCourses": ["CS101", "MATH202"],
+      "pendingCourses": []
+    },
+    {
+      "email": "alreem@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Al Reem",
+      "completedCourses": [],
+      "inProgressCourses": ["PHY303", "CHEM101"],
+      "pendingCourses": ["ENG101"]
+    },
+    {
+      "email": "rosa@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Rosa",
+      "completedCourses": ["MATH202"],
+      "inProgressCourses": ["CS101", "BIO102"],
+      "pendingCourses": []
+    },
+    {
+      "email": "anfal@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Anfal",
+      "completedCourses": ["ENG101"],
+      "inProgressCourses": ["CHEM101"],
+      "pendingCourses": ["PHY303", "MATH202"]
+    },
+    {
+      "email": "muhammad@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Muhammad",
+      "completedCourses": ["BIO102", "PHY303"],
+      "inProgressCourses": ["CS101"],
+      "pendingCourses": []
+    },
+    {
+      "email": "alaa@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Alaa",
+      "completedCourses": ["CS101"],
+      "inProgressCourses": ["ENG101", "CHEM101"],
+      "pendingCourses": []
+    },
+    {
+      "email": "roqaya@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Roqaya",
+      "completedCourses": ["MATH202"],
+      "inProgressCourses": ["CS101", "BIO102"],
+      "pendingCourses": ["PHY303"]
+    },
+    {
+      "email": "aysha@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Aysha",
+      "completedCourses": [],
+      "inProgressCourses": ["PHY303", "ENG101"],
+      "pendingCourses": ["CHEM101", "CS101"]
+    },
+    {
+      "email": "shaikha@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Shaikha",
+      "completedCourses": ["CS101"],
+      "inProgressCourses": ["MATH202", "BIO102"],
+      "pendingCourses": ["PHY303"]
+    },
+    {
+      "email": "khalid.dosari@example.com",
       "password": "instructor123",
-      "role": "Instructor"
+      "role": "Instructor",
+      "name": "Dr. Khalid Al-Dosari",
+      "inProgressCourses": ["CS101", "ENG101"]
+    },
+    {
+      "email": "saleh.hazbi@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Saleh Al-Hazbi",
+      "inProgressCourses": ["MATH202", "PHY303"]
+    },
+    {
+      "email": "yasmin.jassim@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Prof. Yasmin Al-Jassim",
+      "inProgressCourses": ["CHEM101", "BIO102"]
+    },
+    {
+      "email": "mohammed.saleh@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Mohammed Saleh",
+      "inProgressCourses": ["CS101", "MATH202"]
+    },
+    {
+      "email": "fatima.hamza@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Fatima Hamza",
+      "inProgressCourses": ["PHY303", "CHEM101"]
+    },
+    {
+      "email": "zeyad.ali@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Zeyad Ali",
+      "inProgressCourses": ["BIO102", "CS101"]
+    },
+    {
+      "email": "ahmed.ali@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Ahmed Ali",
+      "inProgressCourses": ["MATH202", "ENG101"]
+    },
+    {
+      "email": "noura.thani@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Noura Al-Thani",
+      "inProgressCourses": ["PHY303", "BIO102"]
+    },
+    {
+      "email": "ali.dosari@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Ali Al-Dosari",
+      "inProgressCourses": ["CHEM101", "MATH202"]
+    },
+    {
+      "email": "ismail.jassim@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Ismail Jassim",
+      "inProgressCourses": ["CS101", "PHY303"]
     },
     {
       "email": "admin@example.com",

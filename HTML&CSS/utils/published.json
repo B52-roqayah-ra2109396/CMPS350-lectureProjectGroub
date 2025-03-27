@@ -1,0 +1,105 @@
+{
+  "publishedCourses": [
+    {
+      "courseCode": "CMPS 151",
+      "courseName": "Programming Concepts",
+      "category": "Programming & Software Development",
+      "semester": "Fall",
+      "year": 2025,
+      "deadline": "2025-08-31",
+      "interests": [
+          {
+            "instructorId": "fatima.hamza@example.com",
+            "instructorName": "Dr. Fatima Hamza",
+            "status": "pending"
+          },
+          {
+            "instructorId": "mohammed.saleh@example.com",
+            "instructorName": "Dr. Mohammed Saleh",
+            "status": "pending"
+          }
+      ]
+    },
+    {
+      "courseCode": "CMPS 200",
+      "courseName": "Computer Ethics",
+      "category": "Cybersecurity, Ethics & Management",
+      "semester": "Spring",
+      "year": 2025,
+      "deadline": "2025-04-15",
+      "interests": []
+    },
+    {
+      "courseCode": "CMPS 323",
+      "courseName": "Design and Analysis of Algorithms",
+      "category": "Algorithm & Mathematics",
+      "semester": "Fall",
+      "year": 2025,
+      "deadline": "2025-08-31",
+      "interests": []
+    },
+    {
+      "courseCode": "CMPE 263",
+      "courseName": "Computer Architecture & Organization I",
+      "category": "Computer Systems & Networks",
+      "semester": "Spring",
+      "year": 2025,
+      "deadline": "2025-04-15",
+      "interests": []
+    },
+    {
+      "courseCode": "CMPS 380",
+      "courseName": "Cybersecurity Fundamentals",
+      "category": "Cybersecurity, Ethics & Management",
+      "semester": "Fall",
+      "year": 2025,
+      "deadline": "2025-08-31",
+      "interests": []
+    },
+    {
+      "courseCode": "CMPS 351",
+      "courseName": "Fundamentals of Database Systems",
+      "category": "Computer Systems & Networks",
+      "semester": "Spring",
+      "year": 2025,
+      "deadline": "2025-04-15",
+      "interests": []
+    },
+    {
+      "courseCode": "CMPS 405",
+      "courseName": "Operating Systems",
+      "category": "Computer Systems & Networks",
+      "semester": "Fall",
+      "year": 2025,
+      "deadline": "2025-08-31",
+      "interests": []
+    },
+    {
+      "courseCode": "CMPS 251",
+      "courseName": "Object-Oriented Programming",
+      "category": "Programming & Software Development",
+      "semester": "Spring",
+      "year": 2025,
+      "deadline": "2025-04-15",
+      "interests": []
+    },
+    {
+      "courseCode": "CMPS 205",
+      "courseName": "Discrete Structures",
+      "category": "Algorithm & Mathematics",
+      "semester": "Fall",
+      "year": 2025,
+      "deadline": "2025-08-31",
+      "interests": []
+    },
+    {
+      "courseCode": "CMPS 310",
+      "courseName": "Software Engineering",
+      "category": "Programming & Software Development",
+      "semester": "Spring",
+      "year": 2025,
+      "deadline": "2025-04-15",
+      "interests": []
+    }
+  ]
+}

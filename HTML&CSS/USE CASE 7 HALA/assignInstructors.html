@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assignInstructors.css" />
   </head>
-  <body>
+  <body onload="onLoadAction()">
     <header>
         <div class="logo">
-            <img src="/Media/qu.png"  alt="Qatar University Logo" width="200" height="80">
+            <img src="../Media/qu.png"  alt="Qatar University Logo" width="200" height="80">
         </div>
         <nav>
             <ul>
-                <li><a href="/USE CASE2 ROQAYA/mainADMIN.html"><img src="/Icons/home.svg" alt="home icon"/>Home</a></li>
-                <li><a href="/USE CASE1 ROQAYA/login.html"><img src="/Icons/logout.svg" alt="logout icon"/>Logout</a></li>
-                <li><a href="#contact"><img src="/Icons/contact.svg" alt="contact icon"/>Contact</a></li>
+                <li><a href="../USE CASE2 ROQAYA/mainADMIN.html"><img src="../Icons/home.svg" alt="home icon"/>Home</a></li>
+                <li><a href="../USE CASE1 ROQAYA/login.html"><img src="../Icons/logout.svg" alt="logout icon"/>Logout</a></li>
+                <li><a href="#contact"><img src="../Icons/contact.svg" alt="contact icon"/>Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -35,108 +35,74 @@
                 </ul>
            
             <div class="course-grid">
-                <div class="course-card">
-                    <h3>Dr. Mohammed Mohammad</h3>
-                    <p><strong>CMPS 151</strong><br>Programming Concepts</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
-        
-                <div class="course-card">
-                    <h3>Dr. Mohammed Saleh</h3>
-                    <p><strong>CMPS 200</strong><br>Computer Ethics</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
-        
-                <div class="course-card">
-                    <h3>Dr. Zeyad Ali</h3>
-                    <p><strong>CMPS 251</strong><br>Object-Oriented Programming</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
-        
-                <div class="course-card">
-                    <h3>Dr. Hela Chamican</h3>
-                    <p><strong>CMPS 205</strong><br>Discrete Structures</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
-        
-                <div class="course-card">
-                    <h3>Dr. Mohammed Saleh</h3>
-                    <p><strong>CMPS 323</strong><br>Design and Analysis of Algorithms</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
-        
-                <div class="course-card">
-                    <h3>Prof. Rehab Aldwari</h3>
-                    <p><strong>CMPS 351</strong><br>Fundamentals of Database Systems</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
-        
-                <div class="course-card">
-                    <h3>Dr. Khalid Azem</h3>
-                    <p><strong>CMPE 263</strong><br>Computer Architecture & Organization</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
-        
-                <div class="course-card">
-                    <h3>Dr. Rehab Aldwari</h3>
-                    <p><strong>CMPS 310</strong><br>Software Engineering</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
-        
-                <div class="course-card">
-                    <h3>Dr. Khalid Khan</h3>
-                    <p><strong>CMPS 380</strong><br>Cybersecurity Fundamentals</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
-        
-                <div class="course-card">
-                    <h3>Dr. Ihab Elaf</h3>
-                    <p><strong>CMPS 485</strong><br>Network Security</p>
-                    <div class="buttons">
-                        <button class="accept">Accept</button>
-                        <button class="decline">Decline</button>
-                    </div>
-                </div>
+               
             </div>
         </section>
+        <section class="classForm" id="hiddenForm" style="display: none;">
+            <h2> Create New Class:</h2>
+            <form>
+                <div class="form-group">
+                    <label for="category1">Select Category:</label>
+                    <select id="category1" name="categories" required>
+                        <option value="" disabled>-</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="course">Select Course:</label>
+                    <select id="course" name="course" required>
+                        <option value="" disabled>-</option>
+                    </select>
+                </div>
         
+                <div class="form-group">
+                    <label for="name1">Instructor Name:</label>
+                    <input id="name1" type="text" placeholder="Enter name">
+                </div>
+        
+                <div class="form-group">
+                    <label for="semester">Semester:</label>
+                    <select id="semester" name="semester" required>
+                        <option value="Fall">Fall</option>
+                        <option value="Spring">Spring</option>
+                        <option value="Summer">Summer</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="year">Semester Year:</label>
+                    <select id="year" name="year" required>
+                        <option value="" disabled selected>-</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="time">Enter Days-Time:</label>
+                    <input id="time" type="text" placeholder="Sun-Tue-Thur (10am)">
+                </div>
+        
+                <div class="form-group">
+                    <label for="seats1">Available Seats:</label>
+                    <input id="seats1" type="number" placeholder="Enter seats">
+                </div>
+                <div class="form-group">
+                    <label for="prereq">Select Prerequisites:</label>
+                    <select id="prereq" name="prereq" required>
+                        <option value="" disabled>-</option>
+                    </select>
+                </div>
+                <button type="button" onclick="handleClassSubmission()"> Create </button>
+            </form>
+        </section>        
     </main>
     <footer>
         <div class="footer-container">
             <h3>Contact Us</h3>
             <ul id="contact">
-                <li><img src="/Icons/address.svg" alt="address icon">  Address: Qatar University, University Street, Doha, Qatar</li>
-                <li><img src="/Icons/contact.svg" alt="home icon"/> Phone: +974 4403 3333</li>
-                <li><img src="/Icons/email.svg" alt="email icon"/> Email: QUMCC@qu.edu.qa</li>
+                <li><img src="../Icons/address.svg" alt="address icon">  Address: Qatar University, University Street, Doha, Qatar</li>
+                <li><img src="../Icons/contact.svg" alt="home icon"/> Phone: +974 4403 3333</li>
+                <li><img src="../Icons/email.svg" alt="email icon"/> Email: QUMCC@qu.edu.qa</li>
             </ul>
         </div>
     </footer>
+    <script src="assignInstructors.js"></script>
 </body>
 </html>
