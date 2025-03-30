@@ -23,13 +23,13 @@ async function loadCourses() {
             const response = await fetch("../utils/published.json");
             const data = await response.json();
             publishedCourses = data.publishedCourses || [];
+            localStorage.setItem("publishedCourses", JSON.stringify(publishedCourses));
         } catch (error) {
             console.error("Error fetching published courses:", error);
             alert("Could not load published courses.");
             return;
         }
     }
-
     if (publishedCourses.length === 0) {
         courseListContainer.innerHTML = "<p>No courses available at the moment.</p>";
         return;
@@ -76,7 +76,6 @@ async function loadCourses() {
           
             let statusText = "";
             let statusColor = "black"; 
-
             if (appliedCourse) {
                 if (appliedCourse.status === "pending") {
                     statusText = "Pending";
@@ -119,7 +118,8 @@ function updateSelectedCourses() {
     const selectedPreferencesContainer = document.getElementById("selectedPreferences");
     let currentUser = JSON.parse(localStorage.getItem("currentUser"));
 
-    let userCourses = selectedCourses.filter(course => course.studentId === currentUser.id);
+    let userCourses = selectedCourses.filter(course => course.instructorId === currentUser.email);
+    
 
     selectedPreferencesContainer.innerHTML = userCourses.length === 0 ? 
         "<p>No courses selected yet.</p>" : 
@@ -183,13 +183,12 @@ function submitCourse() {
                 course.interests.push({
                     instructorId: currentUser.email,
                     instructorName: currentUser.name,
-                    status: "Pending"
+                    status: "pending"
                 });
             }
         }
     });
 
-    // console.log(publishedCourses)
     localStorage.setItem("publishedCourses", JSON.stringify(publishedCourses));
     alert("Your course selections have been submitted successfully.");
     selectedCourses = []

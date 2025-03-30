@@ -2,6 +2,7 @@
 // localStorage.removeItem("classesData");
 // localStorage.removeItem("coursesData")
 // localStorage.removeItem("publishedCourses");
+// localStorage.removeItem("userData");
 // alert("data cleared")
 
 

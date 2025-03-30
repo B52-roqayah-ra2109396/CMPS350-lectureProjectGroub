@@ -215,20 +215,9 @@ function handleClassSubmission(event) {
     alert("Please fill all required fields!");
     return;
   }
-
-  let storedClasses = localStorage.getItem("classesData");
-
-  if (storedClasses) {
-    classesData = JSON.parse(storedClasses);
-  } else {
-    fetch(CLASSES_JSON_FILE)
-      .then((response) => response.json())
-      .then((data) => {
-        classesData = data.classes;
-        localStorage.setItem("classesData", JSON.stringify(data));
-      })
-      .catch((error) => console.error("Error loading JSON:", error));
-  }
+  let totalClasses = classesData.classes.reduce((count, c) => count + c.classes.length, 0);
+  let nextClassId = totalClasses + 1;
+  
   let existingCourse = classesData.classes.find(
     (c) =>
       c.courseCode === course.courseCode &&
@@ -247,6 +236,7 @@ function handleClassSubmission(event) {
       return;
     } else {
       existingCourse.classes.push({
+        id: nextClassId,
         instructor,
         availableSeats: parseInt(seats),
         studentEnrolled: 0,
@@ -281,6 +271,7 @@ function handleClassSubmission(event) {
     year: year,
     classes: [
       {
+        id: nextClassId,
         instructor: instructor,
         availableSeats: parseInt(seats),
         studentEnrolled: 0,

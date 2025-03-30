@@ -8,7 +8,8 @@
             "year": "2025",
             "classes": [
                 {
-                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "id": 1,
+                    "instructor": "Dr. Ahmed Ali",
                     "availableSeats": 12,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -16,7 +17,8 @@
                     "time": "Sun-Tue-Thur (12pm)"
                 },
                 {
-                    "instructor": "Prof. Sarah Al-Mansouri",
+                    "id": 2,
+                    "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 10,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -24,6 +26,7 @@
                     "time": "Sun-Tue-Thur (10am)"
                 },
                 {
+                    "id": 3,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 2,
                     "studentEnrolled": 0,
@@ -41,6 +44,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 4,
                     "instructor": "Dr. Noura Al-Thani",
                     "availableSeats": 15,
                     "studentEnrolled": 15,
@@ -51,6 +55,7 @@
                     "time": "Sun-Tue-Thur (8am)"
                 },
                 {
+                    "id": 5,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 17,
                     "studentEnrolled": 15,
@@ -61,14 +66,15 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
-                    "instructor": "Prof. Omar Al-Obaidly",
-                    "availableSeats": 18,
-                    "studentEnrolled": 18,
+                    "id": 6,
+                    "instructor": "Dr. Ismail Jassim",
+                    "availableSeats": 23,
+                    "studentEnrolled": 15,
                     "isValidated": 1,
                     "prerequisites": [
                         "CMPS 151"
                     ],
-                    "time": "sUN-Tue-Thur (2pm)"
+                    "time": "Sun-Tue-Thur (2pm)"
                 }
             ]
         },
@@ -80,7 +86,8 @@
             "year": "2025",
             "classes": [
                 {
-                    "instructor": "Dr. Fatima Al-Sulaiti",
+                    "id": 7,
+                    "instructor": "Dr. Fatima Hamza",
                     "availableSeats": 15,
                     "studentEnrolled": 15,
                     "isValidated": 1,
@@ -90,7 +97,8 @@
                     "time": "Sun-Tue-Thur (2pm)"
                 },
                 {
-                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "id": 8,
+                    "instructor": "Dr. Ahmed Ali",
                     "availableSeats": 22,
                     "studentEnrolled": 17,
                     "isValidated": 0,
@@ -100,7 +108,8 @@
                     "time": "Sun-Tue-Thur (2pm)"
                 },
                 {
-                    "instructor": "Dr. Mohamed Al-Naimi",
+                    "id": 9,
+                    "instructor": "Dr. Noura Al-Thani",
                     "availableSeats": 1,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -119,6 +128,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 10,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 18,
                     "studentEnrolled": 15,
@@ -129,6 +139,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 11,
                     "instructor": "Dr. Noura AL-Thani",
                     "availableSeats": 8,
                     "studentEnrolled": 0,
@@ -139,7 +150,8 @@
                     "time": "Sun-Tue-Thur (3:30pm)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 12,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 4,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -158,7 +170,8 @@
             "year": "2025",
             "classes": [
                 {
-                    "instructor": "Dr. Fatima Al-Sulaiti",
+                    "id": 13,
+                    "instructor": "Dr. Fatima Hamza",
                     "availableSeats": 7,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -168,7 +181,8 @@
                     "time": "Sun-Tue-Thur (2pm)"
                 },
                 {
-                    "instructor": "Prof. Omar Al-Obaidly",
+                    "id": 14,
+                    "instructor": "Dr. Ismail Jassim",
                     "availableSeats": 19,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -178,7 +192,8 @@
                     "time": "Mon-Wed (12pm)"
                 },
                 {
-                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "id": 15,
+                    "instructor": "Dr. Ahmed Ali",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -197,7 +212,8 @@
             "year": "2025",
             "classes": [
                 {
-                    "instructor": "Dr. Mohamed Al-Naimi",
+                    "id": 16,
+                    "instructor": "Dr. Noura Al-Thani",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -205,7 +221,8 @@
                     "time": "Time: Sun-Tue-Thur (8am)"
                 },
                 {
-                    "instructor": "Prof. Sarah Al-Mansouri",
+                    "id": 17,
+                    "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 5,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -213,6 +230,7 @@
                     "time": "Mon-Wed (10am)"
                 },
                 {
+                    "id": 18,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 10,
                     "studentEnrolled": 0,
@@ -230,7 +248,8 @@
             "year": "2025",
             "classes": [
                 {
-                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "id": 19,
+                    "instructor": "Dr. Ahmed Ali",
                     "availableSeats": 12,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -240,7 +259,8 @@
                     "time": "Sun-Tue-Thur (8am)"
                 },
                 {
-                    "instructor": "Dr. Fatima Al-Sulaiti",
+                    "id": 20,
+                    "instructor": "Dr. Fatima Hamza",
                     "availableSeats": 8,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -250,6 +270,7 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
+                    "id": 21,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 5,
                     "studentEnrolled": 0,
@@ -269,6 +290,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 22,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 18,
                     "studentEnrolled": 0,
@@ -279,7 +301,8 @@
                     "time": "Mon-Wed (10am)"
                 },
                 {
-                    "instructor": "Prof. Omar Al-Obaidly",
+                    "id": 23,
+                    "instructor": "Dr. Ismail Jassim",
                     "availableSeats": 10,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -289,7 +312,8 @@
                     "time": "Mon-Wed (3:30pm)"
                 },
                 {
-                    "instructor": "Dr. Mohamed Al-Naimi",
+                    "id": 24,
+                    "instructor": "Dr. Noura Al-Thani",
                     "availableSeats": 7,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -308,7 +332,8 @@
             "year": "2025",
             "classes": [
                 {
-                    "instructor": "Dr. Fatima Al-Sulaiti",
+                    "id": 25,
+                    "instructor": "Dr. Fatima Hamza",
                     "availableSeats": 6,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -318,7 +343,8 @@
                     "time": "Sun-Tue-Thur (1pm)"
                 },
                 {
-                    "instructor": "Dr. Ahmed Al-Kuwari",
+                    "id": 26,
+                    "instructor": "Dr. Ahmed Ali",
                     "availableSeats": 15,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -328,7 +354,8 @@
                     "time": "Sun-Tue-Thur (10am)"
                 },
                 {
-                    "instructor": "Prof. Sarah Al-Mansouri",
+                    "id": 27,
+                    "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 11,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -347,6 +374,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 28,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -355,6 +383,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 29,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -363,7 +392,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 30,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -380,6 +410,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 31,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -390,6 +421,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 32,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -400,7 +432,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 33,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -419,6 +452,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 35,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -430,6 +464,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 36,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -441,7 +476,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 37,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -461,6 +497,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 38,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -469,6 +506,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 39,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -477,7 +515,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 40,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -494,6 +533,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 41,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -504,6 +544,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 42,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -514,7 +555,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 43,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -533,6 +575,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 44,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -543,6 +586,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 45,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -553,7 +597,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 46,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -572,6 +617,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 47,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -580,6 +626,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 48,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -588,7 +635,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 49,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -605,6 +653,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 50,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -615,6 +664,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 51,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -625,7 +675,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 52,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -644,6 +695,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 53,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -652,6 +704,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 54,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -660,7 +713,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 55,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
@@ -677,6 +731,7 @@
             "year": "2025",
             "classes": [
                 {
+                    "id": 56,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 13,
                     "studentEnrolled": 0,
@@ -685,6 +740,7 @@
                     "time": "Mon-Wed (8am)"
                 },
                 {
+                    "id": 57,
                     "instructor": "Prof. Yasmin Al-Jassim",
                     "availableSeats": 9,
                     "studentEnrolled": 0,
@@ -693,7 +749,8 @@
                     "time": "Sun-Tue-Thur (9am)"
                 },
                 {
-                    "instructor": "Dr. Ali Al-Kaabi",
+                    "id": 58,
+                    "instructor": "Dr. Mohammed Saleh",
                     "availableSeats": 20,
                     "studentEnrolled": 0,
                     "isValidated": 0,
