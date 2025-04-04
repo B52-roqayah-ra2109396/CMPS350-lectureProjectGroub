@@ -10,7 +10,7 @@ body {
 
 
 .header-content {
-    background-image: url('/Media/USECASE4.png');
+    background-image: url('../Media/USECASE4.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -67,14 +67,12 @@ body {
 
 .top-bar {
     display: flex;
-   
     background-color: #e2e9fc;
     padding: 10px 20px;
-    
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: space-between;
-     align-items: center;
-     justify-content: center;
+    flex-direction: row;
 }
 
 .top-nav a {
@@ -126,7 +124,7 @@ h1 {
 #completed {
    display: grid;
     margin: 30px auto;
-    width: 180%;
+    width: 80%;
     text-align: center;
     height:150%;
     
@@ -150,37 +148,40 @@ h1 {
 }
 
 .courses-table {
-    width: 150%;
+    width: 90%;
     border-collapse: collapse;
-    margin-top: 10px;
-    overflow-x: auto;
-    align-self: center;
-    
-    
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .courses-table th, 
 .courses-table td {
-    border: 2px solid black;
-    padding: 10px;
+    border: 1px solid #ddd;
+    padding: 12px;
     text-align: center;
 }
 
 .courses-table th {
-    background-color: #B7E9F7;
-    font-weight: bold;
-    text-transform: uppercase;
+    background-color: #4CAF50;
+    color: white;
 }
 
 .courses-table tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f2f2f2;
+}
+
+.courses-table tr:hover {
+    background-color: #ddd;
+    transition: 0.3s;
 }
 
 
 #in-progress {
     display: grid;
     margin: 30px auto;
-    width: 180%;
+    width: 80%;
     text-align: center;
     height:150%;
 }
@@ -196,64 +197,20 @@ h1 {
 
 
 
-.courses-table th, 
-.courses-table td {
-    border: 2px solid black;
-    padding: 10px;
-    text-align: center;
-}
-
-.courses-table th {
-    background-color: #B7E9F7;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.courses-table tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-
 #pending {
     display: grid;
     margin: 30px auto;
-    width: 180%;
+    width: 80%;
     text-align: center;
  
 }
 
 #pending h2 {
-    background-color: #4476BD;
+    background-color: #A9CFFE;
     padding: 10px;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-}
-
-.courses-table {
-
-   
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-
-.courses-table th, 
-.courses-table td {
-  
-    border: 2px solid black;
-    padding: 10px;
-    text-align: center;
-}
-
-.courses-table th {
-    background-color: #d7e3fc;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.courses-table tr:nth-child(even) {
-    background-color: #f9f9f9;
 }
 
 
@@ -301,14 +258,9 @@ footer {
 
 .main-container{
     width: 100%;
-    max-width: 580px;
-    
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
     flex-direction: column;
 }
 
@@ -317,12 +269,6 @@ header {
     width: 100%;
 }
 
-
-.top-bar {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
 
 .top-nav {
     display: flex;
@@ -333,9 +279,9 @@ header {
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .courses-table {
-        width: 150%;
+        width: 50%;
         border-collapse: collapse;
         margin-top: 10px;
         overflow-x: auto;

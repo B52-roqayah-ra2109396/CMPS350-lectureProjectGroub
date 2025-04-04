@@ -3,6 +3,7 @@
 // localStorage.removeItem("coursesData")
 // localStorage.removeItem("publishedCourses");
 // localStorage.removeItem("userData");
+// localStorage.removeItem("usersData");
 // alert("data cleared")
 
 
@@ -14,15 +15,15 @@ function handleLogin(event) {
     const selectedRole = document.querySelector("input[name='role']:checked").value;
     const messageBox = document.querySelector("#message");
 
-    let usersData = localStorage.getItem("usersData");
+    let usersData = localStorage.getItem("userData");
     if (usersData) {
         usersData = JSON.parse(usersData);
-        processLogin(usersData);
+        processLogin(usersData.users);
     } else {
         fetch("../utils/users.json")
             .then(response => response.json())
             .then(data => {
-                // localStorage.setItem("usersData", JSON.stringify(data.users)); // Cache users
+                localStorage.setItem("usersData", JSON.stringify(data.users));
                 processLogin(data.users);
             })
             .catch(error => {

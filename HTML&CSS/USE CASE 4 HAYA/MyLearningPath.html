@@ -6,14 +6,14 @@
     <title>My Learning Path</title>
     <link rel="stylesheet" href="MyLearningPath.css">
 </head>
-<body>
+<body onload="loadLearningPath()">
     <header>
         <div class="top-bar">
-            <img src="/Media/qu.png" alt="Qatar University Logo" width="200">
+            <img src="../Media/qu.png" alt="Qatar University Logo" width="200">
             <nav class="top-nav">
-                <a href="/USE CASE2 ROQAYA/mainStudent.html"><img src="/Icons/home.svg">Home</a>
-                <a href="/USE CASE1 ROQAYA/login.html"><img src="/Icons/logout.svg">Logout</a>
-                <a href="#contact"> <img src="/Icons/contact.svg"> Contact</a>
+                <a href="../USE CASE2 ROQAYA/mainStudent.html"><img src="../Icons/home.svg">Home</a>
+                <a href="../USE CASE1 ROQAYA/login.html"><img src="../Icons/logout.svg">Logout</a>
+                <a href="#contact"> <img src="../Icons/contact.svg"> Contact</a>
                 
 
             </nav>
@@ -36,62 +36,8 @@
         <section id="completed">
             <h2> Completed Courses</h2>
             <div class="table-container">
-                <table class="courses-table">
-                    <thead>
-                        <tr>
-                            <th>Course Name</th>
-                            <th>Instructor</th>
-                            <th>Semester</th>
-                            <th>Grade</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>CMPS 151 Programming Concepts</td>
-                            <td>Dr. Ahmed Al-Kuwari</td>
-                            <td>Fall 2022</td>
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS 251 Object-Oriented Programming</td>
-                            <td>Dr. Noura Al-Thani</td>
-                            <td>Fall 2022</td>
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS 200 Computer Ethics</td>
-                            <td>Dr. Fatima Al-Sulaiti</td>
-                            <td>Spring 2023</td>
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS 205 Discrete Structures</td>
-                            <td>Dr. Khalid Al-Dosari</td>
-                            <td>Spring 2023</td>
-                            <td>B+</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS 323 Design and Analysis of Algorithms</td>
-                            <td>Dr. Fatima Al-Sulaiti</td>
-                            <td>Spring 2023</td>
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS 351 Fundamentals of Database Systems</td>
-                            <td>Dr. Mohamed Al-Naimi</td>
-                            <td>Spring 2023</td>
-                            <td>B</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS303 Data Structures</td>
-                            <td>Prof. Yasmin Al-Jassim</td>
-                            <td>Spring 2023</td>
-                            <td>A</td>
-                        </tr>
-                    </tbody>
+                <table class="courses-table" id="completed-courses">
                 </table>
-
-
             </div>
             
         </section>
@@ -99,62 +45,8 @@
         <section id="in-progress">
             <h2>In Progress Courses</h2>
             <div class="table-container">
-                <table class="courses-table">
-                    <thead>
-                        <tr>
-                            <th>Course Name</th>
-                            <th>Instructor</th>
-                            <th>Semester</th>
-                            <th>Progress (%)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>CMPS 310 Software Engineering</td>
-                            <td>Dr. Khalid Al-Dosari</td>
-                            <td>Fall 2023</td>
-                            <td>50%</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS 380 Cybersecurity Fundamentals</td>
-                            <td>Dr. Saleh Al-Hazbi</td>
-                            <td>Fall 2023</td>
-                            <td>50%</td>
-                        </tr>
-                        <tr>
-                            <td>CMPE 263 Computer Architecture and Organization</td>
-                            <td>Prof. Yasmin Al-Jassim</td>
-                            <td>Fall 2023</td>
-                            <td>50%</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS405 Operating Systems</td>
-                            <td>Dr. Mohammed Saleh</td>
-                            <td>Fall 2023</td>
-                            <td>50%</td>
-                        </tr>
-                        <tr>
-                            <td>CMPE355 Data Communication & Network</td>
-                            <td>Dr. Fatima Hamza</td>
-                            <td>Fall 2023</td>
-                            <td>50%</td>
-                        </tr>
-                        <tr>
-                            <td>GENG300 Numerical Methods</td>
-                            <td>Dr. Zeyad Ali</td>
-                            <td>Fall 2023</td>
-                            <td>50%</td>
-                        </tr>
-                        <tr>
-                            <td>GENG200 Probability & Statistics</td>
-                            <td>Dr. Ahmed Ali</td>
-                            <td>Fall 2023</td>
-                            <td>50%</td>
-                        </tr>
-                    </tbody>
+                <table class="courses-table" id="in-progress-courses">  
                 </table>
-
-
             </div>
             
         </section>
@@ -162,72 +54,10 @@
         <section id="pending">
             <h2><i class="fas fa-tasks"></i> Pending Courses</h2>
             <div class="table-container">
-                <table class="courses-table">
-                    <thead>
-                        <tr>
-                            <th>Course Name</th>
-                            <th>Instructor</th>
-                            <th>Semester</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>CMPS493 Senior Project I</td>
-                            <td>Dr. Ahmed Al-Kuwari</td>
-                            <td>Spring 2024</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS499 Senior Project II</td>
-                            <td>Dr. Noura Al-Thani</td>
-                            <td>Spring 2024</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS381 Applied Cryptography</td>
-                            <td>Dr. Mohammed Saleh</td>
-                            <td>Spring 2024</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS481 Enterprise Cybersecurity</td>
-                            <td>Dr. Ahmed Ali</td>
-                            <td>Spring 2024</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS482 Cyber-Physical Systems Security</td>
-                            <td>Dr. Zeyad Ali</td>
-                            <td>Fall 2024</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS483 Digital Forensics</td>
-                            <td>Dr. Ali Al-Dosari</td>
-                            <td>Fall 2024</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>CMPS489 Special Topics in Cybersecurity</td>
-                            <td>Dr. Ismail Jassim</td>
-                            <td>Fall 2024</td>
-                            <td>Pending</td>
-                        </tr>
-                    </tbody>
+                <table class="courses-table" id="pending-courses">
                 </table>
-
-
             </div>
-            
         </section>
-        
-        
-
-
-
-
-
 
     </div>
        
@@ -238,12 +68,12 @@
         <div class="footer-container">
             <h3>Contact Us</h3>
             <ul id="contact">
-                <li><img src="/Icons/address.svg">  Address: Qatar University, University Street, Doha, Qatar</li>
-                <li><img src="/Icons/contact.svg"> Phone: +974 4403 3333</li>
-                <li><img src="/Icons/email.svg"> Email: QUMCC@qu.edu.qa</li>
+                <li><img src="../Icons/address.svg">  Address: Qatar University, University Street, Doha, Qatar</li>
+                <li><img src="../Icons/contact.svg"> Phone: +974 4403 3333</li>
+                <li><img src="../Icons/email.svg"> Email: QUMCC@qu.edu.qa</li>
             </ul>
         </div>
     </footer>
-    
+    <script src="MyLearningPath.js"></script>
 </body>
 </html>

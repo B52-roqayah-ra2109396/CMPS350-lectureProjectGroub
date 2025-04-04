@@ -85,24 +85,26 @@ async function filterCourses() {
    
 }
 
-function populateClassDropdown(user, classesData, dropdown) {
+function populateClassDropdown(user, filteredClasses, dropdown) {
     dropdown.innerHTML = "<option value=''>Select Class</option>";
-    
-    if (!user.inProgressCourses || !Array.isArray(user.inProgressCourses)) return;
-    
-    user.inProgressCourses.forEach(course => {
-        classesData.forEach(courseData => {
+
+    const allCourses = [...(user.inProgressCourses || []), ...(user.completedCourses || [])];
+    console.log(user)
+
+    allCourses.forEach(courseId => {
+        filteredClasses.forEach(courseData => {
             courseData.classes.forEach(cls => {
-                if (cls.id === course) {
+                if (cls.id === courseId) {
                     const option = document.createElement("option");
                     option.value = cls.id;
-                    option.textContent = `${courseData.courseCode} - ${courseData.title}`;
+                    option.textContent = `${courseData.courseCode} - ${courseData.title} (${cls.isValidated === 2 ? "Graded" : "In Progress"})`;
                     dropdown.appendChild(option);
                 }
             });
         });
     });
 }
+
 
 function displayStudents(classId, usersData, table) {
     table.innerHTML = `
@@ -115,30 +117,55 @@ function displayStudents(classId, usersData, table) {
     `;
 
     if (!classId) return;
-    console.log(classId, usersData, table);
 
     let filteredUsers = usersData.users.filter(user => user.role === 'Student');
     let i = 1;
+
+    const isCompletedClass = checkIfCompletedClass(classId);
+
     filteredUsers.forEach(student => {
-        if (student.inProgressCourses.classId.some(course => course.id == classId)) {
+        const course = [...(student.inProgressCourses.classId || []), ...(student.completedCourses.classId || [])]
+            .find(course => `${course.id}` == `${classId}`);
+
+        if (course) {
             const row = document.createElement("tr");
+
+            const gradeCell = isCompletedClass
+                ? `<td>${course.grade || "N/A"}</td>`
+                : `<td>${createGradeDropdown(course.grade || "")}</td>`;
 
             row.innerHTML = `
                 <td>${i}</td>
                 <td>${student.name}</td>
                 <td>${student.email}</td>
-                <td>${createGradeDropdown(getStudentGrade(student, classId))}</td>
+                ${gradeCell}
             `;
             i++;
             table.appendChild(row);
         }
     });
+
+    // disable submit if class is completed
+    document.getElementById("submitBtn").disabled = isCompletedClass;
 }
+
+function checkIfCompletedClass(classId) {
+    const classesData = JSON.parse(localStorage.getItem("classesData"));
+    for (let course of classesData.classes) {
+        for (let cls of course.classes) {
+            if (`${cls.id}` == `${classId}`) {
+                return cls.isValidated === 2;
+            }
+        }
+    }
+    return false;
+}
+
 
 function createGradeDropdown(selectedGrade) {
     const grades = ["A+", "A", "B+", "B", "C+", "C", "F"];
     let dropdown = `<select>`;
-    
+
     grades.forEach(grade => {
         dropdown += `<option value="${grade}" ${selectedGrade === grade ? "selected" : ""}>${grade}</option>`;
     });
@@ -149,8 +176,54 @@ function createGradeDropdown(selectedGrade) {
 
 
 
-
 function getStudentGrade(student, classId) {
-    const course = student.inProgressCourses.classId.find(course => course.id == classId);
+    const allCourses = [...(student.inProgressCourses || []), ...(student.completedCourses || [])];
+    const course = allCourses.find(course => `${course.id}` == `${classId}`);
     return course ? course.grade || "" : "";
+}
+
+
+async function submitGrades() {
+    const classId = document.getElementById("class").value;
+    if (!classId) return;
+
+    let usersData = JSON.parse(localStorage.getItem("userData"));
+    let classesData = JSON.parse(localStorage.getItem("classesData"));
+    let currentUser = JSON.parse(localStorage.getItem("currentUser"));
+
+    for (let course of classesData.classes) {
+        for (let cls of course.classes) {
+            if (`${cls.id}` == `${classId}`) {
+                cls.isValidated = 2;
+            }
+        }
+    }
+
+    const index = currentUser.inProgressCourses.indexOf(classId);
+    if (index !== -1) {
+        currentUser.inProgressCourses.splice(index, 1);
+        currentUser.completedCourses.push(classId);
+    }
+
+    const rows = document.querySelectorAll(".GradesForm table tr");
+    for (let i = 1; i < rows.length; i++) {
+        const cells = rows[i].querySelectorAll("td");
+        const studentEmail = cells[2].textContent;
+        const gradeSelect = cells[3].querySelector("select");
+        const grade = gradeSelect ? gradeSelect.value : null;
+
+        let student = usersData.users.find(u => u.email === studentEmail);
+        if (!student) continue;
+
+        student.inProgressCourses.classId = student.inProgressCourses.classId.filter(c => `${c.id}` != `${classId}`);
+
+        student.completedCourses.classId.push({ id: `${classId}`, grade: grade });
+    }
+
+    localStorage.setItem("userData", JSON.stringify(usersData));
+    localStorage.setItem("classesData", JSON.stringify(classesData));
+    localStorage.setItem("currentUser", JSON.stringify(currentUser));
+
+    alert("Grades submitted and course marked as completed.");
+    filterCourses(); 
 }

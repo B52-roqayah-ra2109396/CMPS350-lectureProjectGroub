@@ -5,14 +5,14 @@
             "title": "Programming Concepts",
             "category": "Programming & Software Development",
             "semester": "Fall",
-            "year": "2025",
+            "year": "2024",
             "classes": [
                 {
                     "id": 1,
                     "instructor": "Dr. Ahmed Ali",
-                    "availableSeats": 12,
-                    "studentEnrolled": 0,
-                    "isValidated": 0,
+                    "availableSeats": 16,
+                    "studentEnrolled": 15,
+                    "isValidated": 2,
                     "prerequisites": [],
                     "time": "Sun-Tue-Thur (12pm)"
                 },
@@ -58,8 +58,8 @@
                     "id": 5,
                     "instructor": "Dr. Khalid Al-Dosari",
                     "availableSeats": 17,
-                    "studentEnrolled": 15,
-                    "isValidated": 1,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 151"
                     ],
@@ -69,8 +69,8 @@
                     "id": 6,
                     "instructor": "Dr. Ismail Jassim",
                     "availableSeats": 23,
-                    "studentEnrolled": 15,
-                    "isValidated": 1,
+                    "studentEnrolled": 0,
+                    "isValidated": 0,
                     "prerequisites": [
                         "CMPS 151"
                     ],
@@ -100,7 +100,7 @@
                     "id": 8,
                     "instructor": "Dr. Ahmed Ali",
                     "availableSeats": 22,
-                    "studentEnrolled": 17,
+                    "studentEnrolled": 0,
                     "isValidated": 0,
                     "prerequisites": [
                         "CMPS 251"
@@ -172,8 +172,8 @@
                 {
                     "id": 13,
                     "instructor": "Dr. Fatima Hamza",
-                    "availableSeats": 7,
-                    "studentEnrolled": 0,
+                    "availableSeats": 18,
+                    "studentEnrolled": 17,
                     "isValidated": 0,
                     "prerequisites": [
                         "CMPS 303"

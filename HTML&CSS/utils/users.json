@@ -5,19 +5,17 @@
       "password": "student123",
       "role": "Student",
       "name": "Haya",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
-        "CHEM101"
+        "MATH 231"
       ]
     },
     {
@@ -25,15 +23,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Hala",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -46,15 +42,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Al Dana",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": []
@@ -64,15 +58,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Al Reem",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -84,15 +76,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Rosa",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": []
@@ -102,15 +92,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Anfal",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -123,15 +111,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Muhammad",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": []
@@ -141,15 +127,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Alaa",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": []
@@ -159,15 +143,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Roqaya",
-      "completedCourses": {"classId": []},
+      "completedCourses":{"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -179,15 +161,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Aysha",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -200,15 +180,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Shaikha",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -220,15 +198,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Ahmed",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -240,15 +216,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Saeed",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -260,15 +234,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Omar",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -280,15 +252,13 @@
       "password": "student123",
       "role": "Student",
       "name": "Mubasit",
-      "completedCourses": {"classId": []},
+      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
       "inProgressCourses": {
         "classId": [
           {"id": 4, "grade": ""},
-          {"id": 5, "grade": ""},
-          {"id": 6, "grade": ""},
           {"id": 7, "grade": ""},
           {"id": 10, "grade": ""},
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -303,7 +273,7 @@
       "completedCourses": {"classId": []},
       "inProgressCourses": {
         "classId": [
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -318,7 +288,7 @@
       "completedCourses": {"classId": []},
       "inProgressCourses": {
         "classId": [
-          {"id": 8, "grade": ""}
+          {"id": 13, "grade": ""}
         ]
       },
       "pendingCourses": [
@@ -333,28 +303,32 @@
       "inProgressCourses": [
         5,
         10
-      ]
+      ],
+      "completedCourses": []
     },
     {
       "email": "saleh.hazbi@example.com",
       "password": "instructor123",
       "role": "Instructor",
       "name": "Dr. Saleh Al-Hazbi",
-      "inProgressCourses": []
+      "inProgressCourses": [],
+      "completedCourses": []
     },
     {
       "email": "yasmin.jassim@example.com",
       "password": "instructor123",
       "role": "Instructor",
       "name": "Prof. Yasmin Al-Jassim",
-      "inProgressCourses": []
+      "inProgressCourses": [],
+      "completedCourses": []
     },
     {
       "email": "mohammed.saleh@example.com",
       "password": "instructor123",
       "role": "Instructor",
       "name": "Dr. Mohammed Saleh",
-      "inProgressCourses": []
+      "inProgressCourses": [],
+      "completedCourses": []
     },
     {
       "email": "fatima.hamza@example.com",
@@ -363,21 +337,24 @@
       "name": "Dr. Fatima Hamza",
       "inProgressCourses": [
         7
-      ]
+      ],
+      "completedCourses": []
     },
     {
       "email": "zeyad.ali@example.com",
       "password": "instructor123",
       "role": "Instructor",
       "name": "Dr. Zeyad Ali",
-      "inProgressCourses": []
+      "inProgressCourses": [],
+      "completedCourses": []
     },
     {
       "email": "ahmed.ali@example.com",
       "password": "instructor123",
       "role": "Instructor",
       "name": "Dr. Ahmed Ali",
-      "inProgressCourses": []
+      "inProgressCourses": [],
+      "completedCourses": [1]
     },
     {
       "email": "noura.thani@example.com",
@@ -386,14 +363,16 @@
       "name": "Dr. Noura Al-Thani",
       "inProgressCourses": [
         4
-      ]
+      ],
+      "completedCourses": []
     },
     {
       "email": "ali.dosari@example.com",
       "password": "instructor123",
       "role": "Instructor",
       "name": "Dr. Ali Al-Dosari",
-      "inProgressCourses": []
+      "inProgressCourses": [],
+      "completedCourses": []
     },
     {
       "email": "ismail.jassim@example.com",
@@ -402,7 +381,8 @@
       "name": "Dr. Ismail Jassim",
       "inProgressCourses": [
         6
-      ]
+      ],
+      "completedCourses": []
     },
     {
       "email": "admin@example.com",
