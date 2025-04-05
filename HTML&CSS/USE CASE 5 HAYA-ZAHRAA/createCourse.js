@@ -42,7 +42,7 @@ function onLoadAction() {
       .then((response) => response.json())
       .then((data) => {
         userData = data.users;
-        //localStorage.setItem("userData", JSON.stringify(data));
+        localStorage.setItem("userData", JSON.stringify(data));
         console.log(userData,'read jsons');
         populateInstructorsDropdown();
       })

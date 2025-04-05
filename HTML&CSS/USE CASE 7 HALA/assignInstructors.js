@@ -84,16 +84,10 @@ function displayCourses(courses) {
   });
 }
 
-function updateInstructorStatus(
-  courseCode,
-  instructorId,
-  newStatus,
-  semester,
-  year
-) {
-  publishCourses = JSON.parse(localStorage.getItem("publishedCourses"));
+function updateInstructorStatus(courseCode,instructorId,newStatus,semester,year) {
+  publishedCourses = JSON.parse(localStorage.getItem("publishedCourses"));
 
-  let course = publishCourses.find(
+  let course = publishedCourses.find(
     (c) =>
       c.courseCode === courseCode &&
       c.semester === semester &&
@@ -112,12 +106,14 @@ function updateInstructorStatus(
         } else {
           instructor.status = "rejected";
         }
-      } else if (newStatus === "accepted") {
+      } else if (newStatus === "declined") {
         instructor.status = "rejected";
+        localStorage.setItem("publishedCourses", JSON.stringify(publishedCourses));
+        onLoadAction()
       }
     });
     console.log(course);
-    displayCourses(publishCourses);
+    displayCourses(publishedCourses);
     if (flag) {
       populatePrerequisiteDropdown();
       showClassForm(course, instr);

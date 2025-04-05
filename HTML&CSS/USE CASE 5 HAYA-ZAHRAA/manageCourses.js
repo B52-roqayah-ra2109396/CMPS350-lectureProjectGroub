@@ -1,4 +1,4 @@
-let userData = []
+let userData = [];
 async function onLoadAction() {
   let data;
   let storedUsers = localStorage.getItem("userData");
@@ -18,7 +18,7 @@ async function onLoadAction() {
       .then((response) => response.json())
       .then((data) => {
         userData = data.users;
-        //localStorage.setItem("userData", JSON.stringify(data));
+        localStorage.setItem("userData", JSON.stringify(data));
         console.log(userData, "read jsons");
       })
       .catch((error) => console.error("Error loading user JSON:", error));
@@ -160,12 +160,14 @@ async function loadOpenForRegistrationCourses() {
                             <div class="button-container">
                                 <button class="cancel-btn" onclick="cancelClass('${
                                   course.courseCode
-                                }', '${course.semester}', '${
-              course.year
-            }', ${cls.id})">CANCEL</button>
+                                }', '${course.semester}', '${course.year}', ${
+              cls.id
+            })">CANCEL</button>
                                 <button class="validate-btn" onclick="validateClass('${
                                   course.courseCode
-                                }', '${cls.id}','${course.semester}','${course.year}')">VALIDATE</button>
+                                }', '${cls.id}','${course.semester}','${
+              course.year
+            }')">VALIDATE</button>
                             </div>
                         `;
           });
@@ -190,35 +192,42 @@ async function loadOpenForRegistrationCourses() {
   }
 }
 
-function validateClass(courseCode, classId,semester,year) {
+function validateClass(courseCode, classId, semester, year) {
   let storedClasses = localStorage.getItem("classesData");
 
   let classesData = JSON.parse(storedClasses);
-  
 
-  let course = classesData.classes.find((c) =>  c.courseCode === courseCode && c.semester === semester && c.year === year);
+  let course = classesData.classes.find(
+    (c) =>
+      c.courseCode === courseCode && c.semester === semester && c.year === year
+  );
   if (!course) {
     alert("Error: Course not found!");
     return;
   }
 
-  let classToValidate = course.classes.find((cls) => `${cls.id}` ===`${ classId}`);
+  let classToValidate = course.classes.find((cls) => `${cls.id}` === `${classId}`);
   if (!classToValidate) {
     alert("Error: Class not found!");
     return;
   }
 
-  classToValidate.isValidated = 1;
+  if (classToValidate.studentEnrolled >= 15) {
+    classToValidate.isValidated = 1;
+  } else {
+    alert("Not enough students enrolled to validate this class.");
+    return;
+  }
 
   let instructor = userData.find(
-    (user) => user.role ==='Instructor' && user.name.trim() === classToValidate.instructor
+    (user) =>
+      user.role === "Instructor" &&
+      user.name.trim() === classToValidate.instructor
   );
   if (!instructor) {
     alert("Error: Instructor not found!");
     return;
   }
-
-  console.log(instructor)
 
   if (!instructor.inProgressCourses) {
     instructor.inProgressCourses = [];
@@ -230,7 +239,7 @@ function validateClass(courseCode, classId,semester,year) {
 
   console.log(userData);
   localStorage.setItem("classesData", JSON.stringify(classesData));
-  //localStorage.setItem("userData", JSON.stringify(userData));
+  localStorage.setItem("userData", JSON.stringify(userData));
 
   alert(`Class ${classId} validated successfully! Instructor updated.`);
 
@@ -239,36 +248,16 @@ function validateClass(courseCode, classId,semester,year) {
 
 function cancelClass(courseCode, semester, year, classIndex) {
   let data = JSON.parse(localStorage.getItem("classesData"));
-  let course = data.classes.find(
-    (c) =>
-      c.courseCode === courseCode && c.semester === semester && c.year === year
-  );
+  let course = data.classes.find((c) =>c.courseCode === courseCode && c.semester === semester && c.year === year);
 
   if (!course) return;
 
-  let openClasses = course.classes.filter((cls) => cls.isValidated === 0);
-  let classToRemove = openClasses[classIndex];
+  let classToRemove = course.classes.find((cls) => `${cls.id}` === `${classIndex}`);
 
-  if (!classToRemove) return;
-  const len = course.classes.length;
+  course.classes = course.classes.filter((cls) =>!(cls.id === classIndex ));
 
-  course.classes = course.classes.filter(
-    (cls) =>
-      !(
-        cls.instructor === classToRemove.instructor &&
-        cls.time === classToRemove.time &&
-        cls.isValidated === 0
-      )
-  );
 
-  if (len === course.classes.length) {
-    alert(`Class Not found`);
-    return;
-  }
-
-  alert(
-    `Class canceled: ${courseCode} - ${classToRemove.instructor} (${semester} ${year})`
-  );
+  alert(`Class canceled: ${courseCode} - ${classToRemove.instructor} (${semester} ${year})`);
   localStorage.setItem("classesData", JSON.stringify(data));
   onLoadAction();
 }
