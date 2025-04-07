@@ -7,7 +7,7 @@ function ensureDataLoaded() {
   if (!localStorage.getItem("userData")) {
     fetch("../utils/users.json")
       .then((response) => response.json())
-      .then((data) => saveUserData(data.users))
+      .then((data) => saveUserData(data))
       .catch((error) => console.error("Error loading users:", error));
   }
 
@@ -28,16 +28,16 @@ function getCurrentUser() {
   const userData = localStorage.getItem("userData");
   const currentUser = JSON.parse(localStorage.getItem("currentUser"));
   if (userData && currentUser) {
-    const users = JSON.parse(userData).users;
-    let user = users.find((user) => user.email === currentUser.email) || null;
-    console.log(users,currentUser)
+    const users = JSON.parse(userData);
+    let user = users.users.find((user) => user.email === currentUser.email) || null;
+  
     return user;
   }
   return null;
 }
 
 function saveUserData(users) {
-  localStorage.setItem("userData", JSON.stringify({ users }));
+  localStorage.setItem("userData", JSON.stringify(users));
 }
 
 function saveClassesData(classes) {
@@ -50,7 +50,6 @@ function registerCourse(classId) {
     alert("User not found. Please log in.");
     return;
   }
-
   const storedData = localStorage.getItem("classesData");
   if (!storedData) {
     alert("Course data not available.");
@@ -77,15 +76,25 @@ function registerCourse(classId) {
     return;
   }
 
-  // Get all classIds associated with the courseCode
-  const courseClassIds =
-    classesData.find((course) => course.courseCode === courseCode)?.classes.map((cls) => cls.id) ||
-    [];
+  let userCourses = []
+  let userClasses =[]
+  console.log(currentUser)
+  currentUser.completedCourses.classId.map((cs)=>userCourses.push(cs.id))
+  currentUser.inProgressCourses.classId.map((cs)=>userCourses.push(cs.id))
 
-  // Ensure correct access to completed and in-progress courses by checking courseCode
-  if (
-    currentUser.completedCourses.classId.some((c) => courseClassIds.includes(c.id)) ||
-    currentUser.inProgressCourses.classId.some((c) => courseClassIds.includes(c.id))
+  userCourses.forEach((id)=>{
+    classesData.forEach((classD)=>{
+      classD.classes.forEach((cls)=>{
+        if(cls.id===id){
+          userClasses.push(classD.courseCode)
+        }
+      })
+    })
+  })
+
+
+  if (userClasses.includes(courseCode)
+    
   ) {
     alert("You have already completed or are currently enrolled in this course.");
     return;
@@ -125,7 +134,7 @@ function registerCourse(classId) {
   localStorage.setItem("currentUser", JSON.stringify(currentUser));
   const userIndex = usersData.users.findIndex((u) => u.email === currentUser.email);
   usersData.users[userIndex] = currentUser;
-  saveUserData(usersData.users);
+  saveUserData(usersData);
   saveClassesData(classesData);
 
   alert("You have successfully registered for the course.");
@@ -136,6 +145,23 @@ function displayCourses(courses) {
   const currentUser = getCurrentUser();
   const courseList = document.getElementById("course-list");
   courseList.innerHTML = "";
+
+  let userCourses = []
+  let userClasses =[]
+  console.log(currentUser)
+  currentUser.completedCourses.classId.map((cs)=>userCourses.push(cs.id))
+  currentUser.inProgressCourses.classId.map((cs)=>userCourses.push(cs.id))
+
+  userCourses.forEach((id)=>{
+    courses.forEach((classD)=>{
+      classD.classes.forEach((cls)=>{
+        if(cls.id===id){
+          userClasses.push(classD.courseCode)
+        }
+      })
+    })
+  })
+  
 
   courses.forEach((course) => {
     const unvalidatedClasses = course.classes.filter((cls) => cls.isValidated === 0);
@@ -148,10 +174,13 @@ function displayCourses(courses) {
     title.textContent = `${course.courseCode} - ${course.title}`;
     courseDiv.appendChild(title);
 
+    const semesterCard = document.createElement("div");
+    semesterCard.classList.add("semester-card");
+    semesterCard.textContent = `Semester: ${course.semester} - ${course.year}`;
+    courseDiv.appendChild(semesterCard);
     unvalidatedClasses.forEach((cls) => {
       const classDiv = document.createElement("div");
       classDiv.classList.add("instructor-class");
-
       const availableSeats = cls.availableSeats - cls.studentEnrolled;
       const classInfo = document.createElement("span");
       classInfo.innerHTML = `
@@ -166,15 +195,14 @@ function displayCourses(courses) {
       registerBtn.textContent = "REGISTER";
       registerBtn.onclick = () => registerCourse(cls.id);
 
-      const courseClassIds =
-    courses.find((crs) => crs.courseCode === course.courseCode)?.classes.map((cls) => cls.id) ||
-    [];
+    //   const courseClassIds =
+    // courses.find((crs) => crs.courseCode === course.courseCode)?.classes.map((cls) => cls.id) ||
+    // [];
 
       // const courseClassIds = course.classes.map((c) => c.id);
-      const isAlreadyEnrolled =
-        currentUser &&
-        (currentUser.completedCourses.classId.some((c) => courseClassIds.includes(c.id)) ||
-          currentUser.inProgressCourses.classId.some((c) => courseClassIds.includes(c.id)));
+      
+      const isAlreadyEnrolled = userClasses.includes(course.courseCode)
+        
       
       if (isAlreadyEnrolled) {
         registerBtn.classList.add("disabled");

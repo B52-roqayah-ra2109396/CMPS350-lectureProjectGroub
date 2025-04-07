@@ -11,15 +11,14 @@ async function onLoadAction() {
     localStorage.setItem("classesData", JSON.stringify(data));
   }
   if (storedUsers) {
-    userData = JSON.parse(storedUsers).users;
-    console.log(userData);
+    userData = JSON.parse(storedUsers);
+    
   } else {
     fetch("../utils/users.json")
       .then((response) => response.json())
       .then((data) => {
-        userData = data.users;
+        userData = data;
         localStorage.setItem("userData", JSON.stringify(data));
-        console.log(userData, "read jsons");
       })
       .catch((error) => console.error("Error loading user JSON:", error));
   }
@@ -219,7 +218,7 @@ function validateClass(courseCode, classId, semester, year) {
     return;
   }
 
-  let instructor = userData.find(
+  let instructor = userData.users.find(
     (user) =>
       user.role === "Instructor" &&
       user.name.trim() === classToValidate.instructor
@@ -237,7 +236,6 @@ function validateClass(courseCode, classId, semester, year) {
     instructor.inProgressCourses.push(classId);
   }
 
-  console.log(userData);
   localStorage.setItem("classesData", JSON.stringify(classesData));
   localStorage.setItem("userData", JSON.stringify(userData));
 
@@ -250,7 +248,22 @@ function cancelClass(courseCode, semester, year, classIndex) {
   let data = JSON.parse(localStorage.getItem("classesData"));
   let course = data.classes.find((c) =>c.courseCode === courseCode && c.semester === semester && c.year === year);
 
+  
   if (!course) return;
+
+
+  userData.users.forEach((user)=>{
+    if(user.role==="Student")
+    user.inProgressCourses.classId = user.inProgressCourses.classId.filter((cls)=>cls.id!=classIndex);
+  })
+  userData.users.forEach((user)=>{
+    if(user.role==="Student" && !user.pendingCourses.includes(courseCode)){
+      user.pendingCourses.push(courseCode)
+    }
+  })
+
+  console.log(userData)
+
 
   let classToRemove = course.classes.find((cls) => `${cls.id}` === `${classIndex}`);
 
@@ -258,6 +271,7 @@ function cancelClass(courseCode, semester, year, classIndex) {
 
 
   alert(`Class canceled: ${courseCode} - ${classToRemove.instructor} (${semester} ${year})`);
+  localStorage.setItem("userData", JSON.stringify(userData));
   localStorage.setItem("classesData", JSON.stringify(data));
   onLoadAction();
 }

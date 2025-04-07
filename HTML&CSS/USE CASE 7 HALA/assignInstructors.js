@@ -7,6 +7,7 @@ let publishedCourses = [];
 function onLoadAction() {
   let storedCourses = localStorage.getItem("coursesData");
   let storedClasses = localStorage.getItem("classesData");
+  let storedPublished = localStorage.getItem("publishedCourses");
 
   if (storedCourses) {
     coursesData = JSON.parse(storedCourses);
@@ -31,29 +32,20 @@ function onLoadAction() {
       })
       .catch((error) => console.error("Error loading JSON:", error));
   }
-  loadCourses()
-    .then(displayCourses)
-    .catch((error) => console.error("Error loading courses:", error));
-}
-
-async function loadCourses() {
-  let coursesData = localStorage.getItem("publishedCourses");
-
-  if (coursesData) {
-    return JSON.parse(coursesData);
+  
+  if (storedPublished) {
+    publishedCourses = JSON.parse(storedPublished)
+    displayCourses(publishedCourses);
   } else {
-    try {
-      const response = await fetch("../utils/published.json");
-      if (!response.ok) throw new Error("Failed to load JSON file");
-      const jsonData = await response.json();
-      localStorage.setItem(
-        "publishedCourses",
-        JSON.stringify(jsonData.publishedCourses)
-      );
-      return jsonData.publishedCourses;
-    } catch (error) {
-      return [];
-    }
+    fetch("../utils/published.json")
+      .then((response) => response.json())
+      .then((data) => {
+        publishedCourses = data.publishedCourses || [];
+        localStorage.setItem("publishedCourses", JSON.stringify(publishedCourses));
+        console.log(publishedCourses)
+        displayCourses(publishedCourses);
+      })
+      .catch((error) => console.error("Error loading JSON:", error));
   }
 }
 
@@ -84,8 +76,15 @@ function displayCourses(courses) {
   });
 }
 
-function updateInstructorStatus(courseCode,instructorId,newStatus,semester,year) {
+function updateInstructorStatus(
+  courseCode,
+  instructorId,
+  newStatus,
+  semester,
+  year
+) {
   publishedCourses = JSON.parse(localStorage.getItem("publishedCourses"));
+  console.log(publishedCourses);
 
   let course = publishedCourses.find(
     (c) =>
@@ -97,19 +96,18 @@ function updateInstructorStatus(courseCode,instructorId,newStatus,semester,year)
   let flag = false;
   if (course) {
     course.interests.forEach((instructor) => {
-      if (instructor.instructorId === instructorId) {
-        instructor.status = newStatus;
-        if (newStatus === "accepted") {
-          instructor.status = "accepted";
-          instr = instructor;
-          flag = true;
-        } else {
-          instructor.status = "rejected";
-        }
-      } else if (newStatus === "declined") {
+      if (newStatus === "accepted" &&instructor.instructorId === instructorId) {
+        instructor.status = "accepted";
+        instr = instructor;
+        flag = true;
+      } else if (newStatus === "declined" &&instructor.instructorId === instructorId) {
         instructor.status = "rejected";
-        localStorage.setItem("publishedCourses", JSON.stringify(publishedCourses));
-        onLoadAction()
+        console.log(publishedCourses);
+        localStorage.setItem(
+          "publishedCourses",
+          JSON.stringify(publishedCourses)
+        );
+        onLoadAction();
       }
     });
     console.log(course);
@@ -211,9 +209,12 @@ function handleClassSubmission(event) {
     alert("Please fill all required fields!");
     return;
   }
-  let totalClasses = classesData.classes.reduce((count, c) => count + c.classes.length, 0);
+  let totalClasses = classesData.classes.reduce(
+    (count, c) => count + c.classes.length,
+    0
+  );
   let nextClassId = totalClasses + 1;
-  
+
   let existingCourse = classesData.classes.find(
     (c) =>
       c.courseCode === course.courseCode &&

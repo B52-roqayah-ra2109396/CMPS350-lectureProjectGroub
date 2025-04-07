@@ -139,7 +139,7 @@ function populateYearDropdown(dropdownId) {
 
   dropdown.innerHTML = '<option value="" disabled selected>-</option>';
   let currentYear = new Date().getFullYear();
-  for (let i = currentYear; i <= currentYear + 10; i++) {
+  for (let i = currentYear-5; i <= currentYear + 10; i++) {
     let option = document.createElement("option");
     option.value = i;
     option.textContent = i;
@@ -281,9 +281,11 @@ function handleClassSubmission(event) {
     return;
   }
 
-
+  const tim = new Date().getTime(); 
+  const randomValue = Math.floor(Math.random() * (200220 - 234 + 1)) + 234;
   let totalClasses = classesData.classes.reduce((count, c) => count + c.classes.length, 0);
-  let nextClassId = totalClasses + 1;
+  let nextClassId = parseInt(`${totalClasses}${randomValue}`) ;
+  console.log(nextClassId)
   let existingCourse = classesData.classes.find(
     (c) =>
       c.courseCode === course.code &&
@@ -325,7 +327,6 @@ function handleClassSubmission(event) {
   }
 
   let newClass = {
-    id: nextClassId,
     courseCode: course.code,
     title: course.name,
     category: category,
@@ -333,6 +334,7 @@ function handleClassSubmission(event) {
     year: year,
     classes: [
       {
+        id: nextClassId,
         instructor: selectedInstructor.name,
         availableSeats: parseInt(seats),
         studentEnrolled: 0,

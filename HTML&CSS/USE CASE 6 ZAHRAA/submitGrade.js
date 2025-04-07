@@ -94,7 +94,7 @@ function populateClassDropdown(user, filteredClasses, dropdown) {
     allCourses.forEach(courseId => {
         filteredClasses.forEach(courseData => {
             courseData.classes.forEach(cls => {
-                if (cls.id === courseId) {
+                if (cls.id === courseId && cls.isValidated!=0) {
                     const option = document.createElement("option");
                     option.value = cls.id;
                     option.textContent = `${courseData.courseCode} - ${courseData.title} (${cls.isValidated === 2 ? "Graded" : "In Progress"})`;
@@ -187,6 +187,7 @@ async function submitGrades() {
     const classId = document.getElementById("class").value;
     if (!classId) return;
 
+    const studentTable = document.querySelector(".GradesForm table");
     let usersData = JSON.parse(localStorage.getItem("userData"));
     let classesData = JSON.parse(localStorage.getItem("classesData"));
     let currentUser = JSON.parse(localStorage.getItem("currentUser"));
@@ -225,5 +226,6 @@ async function submitGrades() {
     localStorage.setItem("currentUser", JSON.stringify(currentUser));
 
     alert("Grades submitted and course marked as completed.");
-    filterCourses(); 
+   displayStudents(classId,usersData,studentTable)
+    
 }

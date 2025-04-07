@@ -5,6 +5,8 @@ async function loadLearningPath() {
         return;
     }
 
+    console.log(currentUser)
+
     const completedCourses = currentUser.completedCourses.classId || [];
     const inProgressCourses = currentUser.inProgressCourses.classId || [];
     const pendingCourses = currentUser.pendingCourses || [];
@@ -92,12 +94,16 @@ function populateLearningPath(completedCourses, inProgressCourses, pendingCourse
     `;
 
     function getCourseById(classId) {
+        let flag =false
         for (const course of classesData) {
             for (const classItem of course.classes) {
-                if (`${classItem.id}` === `${classId}`) {
+                if (`${classItem.id}` === `${classId}` && classItem.isValidated!==0) {
                     return [course,classItem];
                 }
             }
+        }
+        if(!flag){
+            return [];
         }
         return "Unknown Course";
     }
@@ -108,8 +114,10 @@ function populateLearningPath(completedCourses, inProgressCourses, pendingCourse
     }
 
     completedCourses.forEach(crs => {
-        const row = document.createElement("tr");
+       
         const data = getCourseById(crs.id);
+        if(data.length>0){
+        const row = document.createElement("tr");
         row.innerHTML = `
             <td>${data[0].courseCode}</td>
             <td>${data[0].title}</td>
@@ -118,19 +126,23 @@ function populateLearningPath(completedCourses, inProgressCourses, pendingCourse
             <td>${crs.grade || "N/A"}</td>
         `;
         completedTable.appendChild(row);
+        }
     });
 
     inProgressCourses.forEach(crs => {
-        const row = document.createElement("tr");
         const data = getCourseById(crs.id);
-        row.innerHTML = `
-            <td>${data[0].courseCode}</td>
-            <td>${data[0].title}</td>
-            <td>${data[1].instructor}</td>
-            <td>${data[0].semester}-${data[0].year}</td>
-            <td>${data[1].progress || "N/A"}</td>
-        `;
-        inProgressTable.appendChild(row);
+        if(data.length>0){
+            console.log(data)
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                <td>${data[0].courseCode}</td>
+                <td>${data[0].title}</td>
+                <td>${data[1].instructor}</td>
+                <td>${data[0].semester}-${data[0].year}</td>
+                <td>${data[1].progress || "N/A"}</td>
+            `;
+            inProgressTable.appendChild(row);
+        }
     });
 
     pendingCourses.forEach(courseCode => {

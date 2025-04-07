@@ -15,8 +15,13 @@
         ]
       },
       "pendingCourses": [
-        "MATH 231"
-      ]
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ]      
     },
     {
       "email": "hala@example.com",
@@ -32,10 +37,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": [
-        "PHY303",
-        "ENG101"
-      ]
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "aldana@example.com",
@@ -51,7 +60,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": []
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "alreem@example.com",
@@ -67,9 +83,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": [
-        "ENG101"
-      ]
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "rosa@example.com",
@@ -85,7 +106,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": []
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "anfal@example.com",
@@ -101,10 +129,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": [
-        "PHY303",
-        "MATH202"
-      ]
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "muhammad@example.com",
@@ -120,7 +152,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": []
+      "pendingCourses": [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "alaa@example.com",
@@ -136,7 +175,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": []
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "roqaya@example.com",
@@ -152,9 +198,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": [
-        "PHY303"
-      ]
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "aysha@example.com",
@@ -171,9 +222,13 @@
         ]
       },
       "pendingCourses": [
-        "CHEM101",
-        "CS101"
-      ]
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "shaikha@example.com",
@@ -189,9 +244,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": [
-        "PHY303"
-      ]
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "ahmed@example.com",
@@ -207,9 +267,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": [
-        "PHY303"
-      ]
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "saeed@example.com",
@@ -225,9 +290,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": [
-        "PHY303"
-      ]
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "omar@example.com",
@@ -243,9 +313,14 @@
           {"id": 13, "grade": ""}
         ]
       },
-      "pendingCourses": [
-        "PHY303"
-      ]
+      "pendingCourses":  [
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPS 350","CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "mubasit@example.com",
@@ -262,8 +337,13 @@
         ]
       },
       "pendingCourses": [
-        "PHY303"
-      ]
+        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
+        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
+        "CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
+        "CMPS 482","CMPS 483","CMPS 489"
+      ] 
     },
     {
       "email": "khalifa@example.com",
@@ -277,7 +357,13 @@
         ]
       },
       "pendingCourses": [
-        "PHY303"
+        "CMPS 151","CMPS 200","CMPS 323","CMPE 263",
+        "CMPS 380","CMPS 351","CMPS 405","CMPS 251",
+        "CMPS 205","CMPS 310","CMPS 485","CMPS 303",
+        "CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "MAGT 101","CMPS 493","CMPS 499","CMPS 381",
+        "CMPS 481","CMPS 482","CMPS 483","CMPS 489"
       ]
     },
     {
@@ -292,8 +378,15 @@
         ]
       },
       "pendingCourses": [
-        "PHY303"
+        "CMPS 151","CMPS 200","CMPS 323","CMPE 263",
+        "CMPS 380","CMPS 351","CMPS 405","CMPS 251",
+        "CMPS 205","CMPS 310","CMPS 485","CMPS 303",
+        "CMPE 355","GENG 200","GENG 300",
+        "MATH 101","MATH 102","MATH 231","CMPS 307",
+        "MAGT 101","CMPS 493","CMPS 499","CMPS 381",
+        "CMPS 481","CMPS 482","CMPS 483","CMPS 489"
       ]
+      
     },
     {
       "email": "khalid.dosari@example.com",
