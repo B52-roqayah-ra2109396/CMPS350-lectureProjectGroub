@@ -5,7 +5,6 @@
 // localStorage.removeItem("usersData");
 // alert("data cleared")
 
-
 function handleLogin(event) {
     event.preventDefault();
 
