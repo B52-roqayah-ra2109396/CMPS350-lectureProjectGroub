@@ -33,7 +33,7 @@ function handleLogin(event) {
 
     function processLogin(users) {
         const user = users.find(u => u.email === email && u.password === password && u.role === selectedRole);
-
+        
         if (user) {
             messageBox.textContent = `Login successful! Welcome, ${selectedRole}.`;
             messageBox.style.color = "green";
@@ -57,3 +57,7 @@ function handleLogout() {
     localStorage.removeItem("currentUser");
     window.location.href = "../login.html"; 
 }
+
+
+
+
