@@ -5,365 +5,929 @@
       "password": "student123",
       "role": "Student",
       "name": "Haya",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
+      "completedCourses": {
+        "classId": [
+          {
+            "id": 1,
+            "grade": "A"
+          }
+        ]
+      },
       "inProgressCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
         ]
       },
       "pendingCourses": [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ]      
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "hala@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Hala",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "aldana@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Al Dana",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "alreem@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Al Reem",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "rosa@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Rosa",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "anfal@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Anfal",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "muhammad@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Muhammad",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
+      "completedCourses": {
+        "classId": [
+          {
+            "id": 1,
+            "grade": "A"
+          }
+        ]
+      },
       "inProgressCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
         ]
       },
       "pendingCourses": [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "alaa@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Alaa",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "roqaya@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Roqaya",
-      "completedCourses":{"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "aysha@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Aysha",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
+      "completedCourses": {
+        "classId": [
+          {
+            "id": 1,
+            "grade": "A"
+          }
+        ]
+      },
       "inProgressCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
         ]
       },
       "pendingCourses": [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "shaikha@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Shaikha",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "ahmed@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Ahmed",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "saeed@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Saeed",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "omar@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Omar",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
-      "inProgressCourses": {
+      "completedCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 1,
+            "grade": "A"
+          }
         ]
       },
-      "pendingCourses":  [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPS 350","CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+      "inProgressCourses": {
+        "classId": [
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
+        ]
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "mubasit@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Mubasit",
-      "completedCourses": {"classId": [{"id": 1, "grade": "A"}]},
+      "completedCourses": {
+        "classId": [
+          {
+            "id": 1,
+            "grade": "A"
+          }
+        ]
+      },
       "inProgressCourses": {
         "classId": [
-          {"id": 4, "grade": ""},
-          {"id": 7, "grade": ""},
-          {"id": 10, "grade": ""},
-          {"id": 13, "grade": ""}
+          {
+            "id": 4,
+            "grade": ""
+          },
+          {
+            "id": 7,
+            "grade": ""
+          },
+          {
+            "id": 10,
+            "grade": ""
+          },
+          {
+            "id": 13,
+            "grade": ""
+          }
         ]
       },
       "pendingCourses": [
-        "CMPS 200","CMPS 323","CMPE 263","CMPS 380",
-        "CMPS 351","CMPS 405","CMPS 205","CMPS 485",
-        "CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "CMPS 493","CMPS 499","CMPS 381","CMPS 481",
-        "CMPS 482","CMPS 483","CMPS 489"
-      ] 
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
     },
     {
       "email": "khalifa@example.com",
       "password": "student123",
       "role": "Student",
       "name": "Khalifa",
-      "completedCourses": {"classId": []},
+      "completedCourses": {
+        "classId": []
+      },
       "inProgressCourses": {
         "classId": [
-          {"id": 13, "grade": ""}
+          {
+            "id": 13,
+            "grade": ""
+          }
         ]
       },
       "pendingCourses": [
-        "CMPS 151","CMPS 200","CMPS 323","CMPE 263",
-        "CMPS 380","CMPS 351","CMPS 405","CMPS 251",
-        "CMPS 205","CMPS 310","CMPS 485","CMPS 303",
-        "CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "MAGT 101","CMPS 493","CMPS 499","CMPS 381",
-        "CMPS 481","CMPS 482","CMPS 483","CMPS 489"
+        "CMPS 151",
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 251",
+        "CMPS 205",
+        "CMPS 310",
+        "CMPS 485",
+        "CMPS 303",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "MAGT 101",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
       ]
     },
     {
@@ -371,23 +935,1059 @@
       "password": "student123",
       "role": "Student",
       "name": "Yasir Saeed",
-      "completedCourses": {"classId": []},
+      "completedCourses": {
+        "classId": []
+      },
       "inProgressCourses": {
         "classId": [
-          {"id": 13, "grade": ""}
+          {
+            "id": 13,
+            "grade": ""
+          }
         ]
       },
       "pendingCourses": [
-        "CMPS 151","CMPS 200","CMPS 323","CMPE 263",
-        "CMPS 380","CMPS 351","CMPS 405","CMPS 251",
-        "CMPS 205","CMPS 310","CMPS 485","CMPS 303",
-        "CMPE 355","GENG 200","GENG 300",
-        "MATH 101","MATH 102","MATH 231","CMPS 307",
-        "MAGT 101","CMPS 493","CMPS 499","CMPS 381",
-        "CMPS 481","CMPS 482","CMPS 483","CMPS 489"
+        "CMPS 151",
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 251",
+        "CMPS 205",
+        "CMPS 310",
+        "CMPS 485",
+        "CMPS 303",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "MAGT 101",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
       ]
-      
     },
+    {
+      "email": "haya.alhijri@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Haya Al Hijri",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
+    },
+    {
+      "email": "saeed.alsaudi@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Saeed Al Saudi",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
+    },
+    {
+      "email": "saeed.yasir@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Saeed Yasir",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
+    },
+    {
+      "email": "noor@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Noor",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200",
+        "CMPS 323",
+        "CMPE 263",
+        "CMPS 380",
+        "CMPS 351",
+        "CMPS 405",
+        "CMPS 205",
+        "CMPS 485",
+        "CMPS 350",
+        "CMPE 355",
+        "GENG 200",
+        "GENG 300",
+        "MATH 101",
+        "MATH 102",
+        "MATH 231",
+        "CMPS 307",
+        "CMPS 493",
+        "CMPS 499",
+        "CMPS 381",
+        "CMPS 481",
+        "CMPS 482",
+        "CMPS 483",
+        "CMPS 489"
+      ]
+    },
+    {
+      "email": "mariam@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Mariam",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "meera@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Meera",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "sharifa@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Sharifa",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "waad@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Waad",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },    
+    {
+      "email": "alya@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Alya",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "duha@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Duha",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "lamya@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Lamya",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "buthaina@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Buthaina",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "nadia@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Nadia",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "nadya@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Nadya",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "masouma@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Masouma",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "al.maha@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Al Maha",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "sadeem@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Sadeem",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "alghala@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Alghala",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "alnood@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Alnood",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "hissa@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Hissa",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "huda@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Huda",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "moza@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Moza",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "joza@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Joza",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "malak@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Malak",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "hanoof@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Hanoof",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "badour@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Badour",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "shahad@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Shahad",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "khulood@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Khulood",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "rawan@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Rawan",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "baina@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Baina",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "raghad@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Raghad",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "najla@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Najla",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "ramsha@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Ramsha",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "saja@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Saja",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "hind@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Hind",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "safya@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Safya",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "roda@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Roda",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "nida@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Nida",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "mishael@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Mishael",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "shoug@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Shoug",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "zayed@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Zayed",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "nasser@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Nasser",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "sultan@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Sultan",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "bassel@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Bassel",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "shamsa@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Shamsa",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "hamad@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Hamad",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "rashed@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Rashed",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "rehman@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Rehman",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "nahyan@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Nahyan",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "saif@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Saif",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "osama@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Osama",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },
+    {
+      "email": "yousaf@example.com",
+      "password": "student123",
+      "role": "Student",
+      "name": "Yousaf",
+      "completedCourses": {
+        "classId": []
+      },
+      "inProgressCourses": {
+        "classId": []
+      },
+      "pendingCourses": [
+        "CMPS 200", "CMPS 323", "CMPE 263", "CMPS 380", "CMPS 351", "CMPS 405",
+        "CMPS 205", "CMPS 485", "CMPS 350", "CMPE 355", "GENG 200", "GENG 300",
+        "MATH 101", "MATH 102", "MATH 231", "CMPS 307", "CMPS 493", "CMPS 499",
+        "CMPS 381", "CMPS 481", "CMPS 482", "CMPS 483", "CMPS 489"
+      ]
+    },                                
     {
       "email": "khalid.dosari@example.com",
       "password": "instructor123",
@@ -447,7 +2047,9 @@
       "role": "Instructor",
       "name": "Dr. Ahmed Ali",
       "inProgressCourses": [],
-      "completedCourses": [1]
+      "completedCourses": [
+        1
+      ]
     },
     {
       "email": "noura.thani@example.com",
@@ -477,6 +2079,206 @@
       ],
       "completedCourses": []
     },
+    {
+      "email": "ahmed.salem@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Ahmed Salem",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "fatima.alharthy@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Fatima Al-Harthy",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "mohammed.alhajri@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Mohammed Al-Hajri",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "layla.alqassimi@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Layla Al-Qassimi",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "khaled.alshamsi@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Khaled Al-Shamsi",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "sara.alshaikh@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Sara Al-Shaikh",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "yousef.mohammed@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Yousef Mohammed",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "noura.fahad@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Noura Fahad",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "zainab.ali@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Zainab Ali",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "mohammad.mansour@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Mohammad Mansour",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "ibrahim.ahmed@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Ibrahim Ahmed",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "yara.hassan@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Yara Hassan",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "ali.ahmed@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Ali Ahmed",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "jameela.bintali@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Jameela Bint Ali",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "omar.khalid@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Omar Khalid",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "dalia.ahmad@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Dalia Ahmad",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "nashwa.farid@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Nashwa Farid",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "hassan.jabir@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Hassan Jabir",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "kawther.mohammad@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Kawther Mohammad",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "yusuf.khamis@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Yusuf Khamis",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "layla.salem@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Layla Salem",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "fahad.mansoor@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Fahad Mansoor",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "naima.ahmed@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Naima Ahmed",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "sarah.farouk@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Sarah Farouk",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },
+    {
+      "email": "omar.nasser@example.com",
+      "password": "instructor123",
+      "role": "Instructor",
+      "name": "Dr. Omar Nasser",
+      "inProgressCourses": [],
+      "completedCourses": []
+    },        
     {
       "email": "admin@example.com",
       "password": "admin123",
